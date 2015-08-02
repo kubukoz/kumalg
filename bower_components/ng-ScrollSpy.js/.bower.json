@@ -31,6 +31,5 @@
   },
   "_source": "git://github.com/patrickmarabeas/ng-ScrollSpy.git",
   "_target": "~3.2.1",
-  "_originalSource": "ng-ScrollSpy.js",
-  "_direct": true
+  "_originalSource": "ng-ScrollSpy.js"
 }
