@@ -1,0 +1,14 @@
+{
+  "name": "angular-on-hold",
+  "homepage": "https://github.com/kubukoz/angular-on-hold",
+  "_release": "9f15a98190",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "9f15a98190038a1a48ed347e77327e6d48abdeee"
+  },
+  "_source": "git://github.com/kubukoz/angular-on-hold.git",
+  "_target": "*",
+  "_originalSource": "kubukoz/angular-on-hold",
+  "_direct": true
+}
