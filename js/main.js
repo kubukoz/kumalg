@@ -11,7 +11,7 @@ var nameToUrl = function(name){
     return removeDiacr(name.split(" ").join("-").split("/").join("-").toLowerCase().split("\"").join(""));
 }
 
-var app = angular.module("kumalg", ["ngScrollSpy", "duScroll", "textAngular", "ngSilent", "ngRoute"]);
+var app = angular.module("kumalg", ["ngScrollSpy", "duScroll", "textAngular", "ngSilent", "ngRoute", "fitVids"]);
 app.run(function($rootScope, $templateCache){
     $templateCache.put("templates/home.html", angular.element(document.getElementById("site")).html())
 });
@@ -99,6 +99,11 @@ app.controller("PortfolioController", function($scope, $routeParams, $document, 
         if($scope.portfolio.selected<0) $ngSilentLocation.silent("/")
     } else $scope.portfolio.selected=0;
 });
+app.filter("trustAsHtml", function($sce){
+    return function(input){
+        return $sce.trustAsHtml(input);
+    }
+})
 app.controller("FooterController", function($scope){
     $scope.currentYear = new Date().getUTCFullYear();
 });

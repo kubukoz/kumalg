@@ -350,30 +350,11 @@ nav{
             content: 'Opis osiągnięcia';
           }
         }
-        img{
-
-        }
         .image{
           margin-bottom: 10px;
           width: 60px;
           height: 60px;
-          &.empty{
-            border-radius: 50%;
-            border: 2px dashed $white20p;
-            align-items: center;
-            justify-content: center;
-            color: $white20p;
-            text-transform: uppercase;
-            font-family: $font-lato;
-            font-size: .875em;
-            padding: 10px;
-            font-weight: $bold;
-            cursor: pointer;
-          }
           display: inline-flex;
-          input{
-            display: none;
-          }
         }
       }
       @media (max-width: 760px){
@@ -872,15 +853,15 @@ nav{
             background-size: cover;
             background-position: top;
           }
+          margin-bottom: 52px;
         }
-        iframe, embed{
-          width: 100%;
+        .vid-wrapper{
           margin-bottom: 52px;
         }
       }
       .image{
         overflow: auto;
-        margin-top: 52px;
+        margin-bottom: 52px;
         img{
           width: 100%;
         }
@@ -900,7 +881,8 @@ nav{
           }
         }
         .right{
-          flex: auto
+          flex: auto;
+          padding-left: 0;
         }
       }
     }

@@ -1,0 +1,22 @@
+{
+  "name": "angular-fitvids",
+  "main": "./angular-fitvids.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "angular": ">= 1.2.0"
+  },
+  "homepage": "https://github.com/kubukoz/angular-fitvids",
+  "_release": "04833ed9e7",
+  "_resolution": {
+    "type": "branch",
+    "branch": "feature-angular",
+    "commit": "04833ed9e779b2ce09296cc118b0e53e98b005b3"
+  },
+  "_source": "git://github.com/kubukoz/angular-fitvids.git",
+  "_target": "feature-angular",
+  "_originalSource": "kubukoz/angular-fitvids"
+}

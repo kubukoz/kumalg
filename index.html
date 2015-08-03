@@ -200,7 +200,7 @@
 	</section>
 	<section id="klienci" scrollspy-broadcast scrollspy-offset="70" ng-controller="ClientController">
 		<div class="nsz">
-			<div class="client" ng-repeat="client in clients"><img ng-src="{{client.imgSrc}}" ng-attr-alt="{{client.name}}"/></div>
+			<div class="client" ng-repeat="client in clients"><img ng-src="{{client.imgSrc}}" ng-attr-alt="{{client.name}}" ng-attr-title="{{client.name}}"/></div>
 		</div>
 	</section>
 	<section id="portfolio" scrollspy-broadcast scrollspy-offset="70" ng-controller="PortfolioController">
@@ -225,7 +225,7 @@
 				<div class="display" ng-class="{'hidden':!portfolio.selectedItem}">
 					<h1 ng-bind-html="portfolio.selectedItem.name"></h1>
 					<div class="left">
-						<p ng-repeat="line in portfolio.selectedItem.content"></p>
+						<p ng-repeat="line in portfolio.selectedItem.content" ng-bind-html="line"></p>
 						<div class="online" ng-show="portfolio.selectedItem.onlineUrl.length">
 							<b>Online:</b>
 							<a ng-href="{{portfolio.selectedItem.onlineUrl}}" ng-bind="portfolio.selectedItem.online"></a>
@@ -237,6 +237,10 @@
 							<img src="images/macbook.png"/>
 							<div class="macbook-inside" ng-style="{'background-image': 'url('+portfolio.selectedItem.macbook+')'}"></div>
 						</div>
+						<div fit-vids timeout="100">
+							<div class="vid-wrapper" ng-repeat="vid in portfolio.selectedItem.vids" ng-bind-html="vid | trustAsHtml">
+							</div>
+						</div>
 					</div>
 					<div class="image" ng-repeat="image in portfolio.selectedItem.screenshots">
 						<img ng-src="{{image}}"/>
@@ -247,20 +251,20 @@
 	</section>
 	<section id="kontakt" scrollspy-broadcast scrollspy-offset="70">
 		<div class="nsz">
-			<a class="icon mail" href="mailto:kumalgfilms@gmail.com">
+			<a class="icon mail" target="_blank" href="mailto:kumalgfilms@gmail.com">
 				<svg version="1.1" id="Mail" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 	 viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <path d="M41.262,41.006h-22.5c-2.071,0-3.75-1.642-3.75-3.667v-11l15,7.333l15-7.333v11
 	C45.012,39.364,43.332,41.006,41.262,41.006z M15.012,22.672c0-2.024,1.679-3.666,3.75-3.666h22.5c2.07,0,3.75,1.642,3.75,3.666
 	l-15,7.334L15.012,22.672z"/>
 </svg></a>
-			<a class="icon facebook" href="https://www.facebook.com/KumalgFilms">
+			<a class="icon facebook" target="_blank" href="https://www.facebook.com/KumalgFilms">
 				<svg version="1.1" id="Fb" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
 	 viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <path d="M32.16,22.349v3.65h5.621l-0.748,5.717H32.16v14.659h-5.87V31.716h-4.892v-5.717h4.892v-4.211
 	c0-4.887,2.974-7.552,7.31-7.552c2.07,0,3.855,0.154,4.373,0.231v5.1h-3.012C32.602,19.567,32.16,20.707,32.16,22.349z"/>
 </svg>		</a>
-			<a class="icon youtube" href="https://www.youtube.com/user/kumalg">
+			<a class="icon youtube" target="_blank" href="https://www.youtube.com/user/kumalg">
 				<svg version="1.1" id="YT" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
 	 viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <path d="M40.71,46.691c-3.53,0.406-7.099,0.406-10.648,0.406c-3.549,0-7.117,0-10.646-0.406
@@ -289,7 +293,7 @@
 	h-1.918v-5.234c-0.173-0.946-0.557-2.299-1.17-4.095c-0.422-1.197-0.845-2.414-1.248-3.611h2.034l1.362,5.079l1.305-5.079h1.957
 	l-2.322,7.706V25.428z"/>
 </svg></a>
-			<a class="icon vimeo" href="https://vimeo.com/kumalg">
+			<a class="icon vimeo" target="_blank" href="https://vimeo.com/kumalg">
 				<svg version="1.1" id="Vimeo" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
 	 viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <path d="M39.148,38.449c-2.174,2.986-4.801,5.874-8.109,7.865c-1.2,0.764-3.634,1.692-5.223,0.996
@@ -301,7 +305,7 @@
 	c0.939,1.228,0.973,2.82,0.681,4.381C47,23.514,44.243,31.479,39.148,38.449z"/>
 </svg>
 			</a>
-			<a class="icon behance" href="https://www.behance.net/kumalg">
+			<a class="icon behance" target="_blank" href="https://www.behance.net/kumalg">
 				<svg version="1.1" id="Behance" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
 	 viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <path d="M39.373,45.011H20.624c-3.105,0-5.625-2.521-5.625-5.627V20.628c0-3.106,2.52-5.627,5.625-5.627h18.749
@@ -415,6 +419,7 @@
 <script src="bower_components/textAngular/dist/textAngular-sanitize.min.js"></script>
 <script src="bower_components/textAngular/dist/textAngular-rangy.min.js"></script>
 <script src="bower_components/angular-scroll/angular-scroll.min.js"></script>
+<script src="bower_components/angular-fitvids/angular-fitvids.js"></script>
 <script src="bower_components/ngSilent/ngSilent.js"></script>
 <script src="bower_components/ng-ScrollSpy.js/src/ng-ScrollSpy.js"></script>
 <script src="bower_components/angular-route/angular-route.min.js"></script>

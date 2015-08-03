@@ -1,50 +1,38 @@
 [
   {
-    "name": "",
+    "name": "Skanska",
     "imgSrc": "images/klienci/Skanska.svg"
   },
   {
-    "name": "",
+    "name": "Rossman",
     "imgSrc": "images/klienci/Rossmann.svg"
   },
   {
-    "name": "",
+    "name": "Mantica",
     "imgSrc": "images/klienci/Mantica.svg"
   },
   {
-    "name": "",
-    "imgSrc": "images/klienci/Kratex.svg"
-  },
-  {
-    "name": "",
+    "name": "Standard Express",
     "imgSrc": "images/klienci/StandardExpress.svg"
   },
   {
-    "name": "",
+    "name": "OSK Majchrzak",
     "imgSrc": "images/klienci/OSK.svg"
   },
   {
-    "name": "",
+    "name": "Elektrum",
     "imgSrc": "images/klienci/Elektrum.svg"
   },
   {
-    "name": "",
-    "imgSrc": "images/klienci/Skanska.svg"
+    "name": "ZW Media",
+    "imgSrc": "images/klienci/ZwMedia.png"
   },
   {
-    "name": "",
-    "imgSrc": "images/klienci/Rossmann.svg"
+    "name": "Lucky Language",
+    "imgSrc": "images/klienci/LuckyLanguage.png"
   },
   {
-    "name": "",
-    "imgSrc": "images/klienci/Mantica.svg"
-  },
-  {
-    "name": "",
-    "imgSrc": "images/klienci/Kratex.svg"
-  },
-  {
-    "name": "",
-    "imgSrc": "images/klienci/StandardExpress.svg"
+    "name": "Apteka Galmed",
+    "imgSrc": "images/klienci/galmed.svg"
   }
 ]

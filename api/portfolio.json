@@ -5,35 +5,38 @@
     "items": [
       {
         "name": "OSK Majchrzak",
-        "thumbnail": "images/src.png",
+        "thumbnail": "images/scr.png",
         "content": [
           "Projekt strony www przygotowany dla ośrodka szkolenia kierowców OSK Majchrzak prowadzonego przez Przemysława Majchrzaka",
           "Hajs jest, strony nie ma, ewenement"
         ],
         "onlineUrl": "http://majchrzak.info.pl",
         "online": "majchrzak.info.pl",
-        "macbook": "images/scr.png",
         "screenshots": [
           "images/scr.png"
-        ]
+        ],
+        "macbook": "images/scr.png"
       },
       {
         "name": "OSK Majchrzak",
-        "thumbnail": "images/src.png",
+        "thumbnail": "images/scr.png",
         "content": [
           "Projekt strony www przygotowany dla ośrodka szkolenia kierowców OSK Majchrzak prowadzonego przez Przemysława Majchrzaka",
           "Hajs jest, strony nie ma, ewenement"
         ],
         "onlineUrl": "http://majchrzak.info.pl",
         "online": "majchrzak.info.pl",
-        "macbook": "images/scr.png",
+        "vids": [
+          "<iframe src='https://player.vimeo.com/video/129544192' width='610' height='344' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen>",
+          "<iframe src='https://www.youtube.com/embed/SzSusThjdT4' width='610' height='344' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen>"
+        ],
         "screenshots": [
           "images/scr.png"
         ]
       },
       {
         "name": "OSK Majchrzak",
-        "thumbnail": "images/src.png",
+        "thumbnail": "images/scr.png",
         "content": [
           "Projekt strony www przygotowany dla ośrodka szkolenia kierowców OSK Majchrzak prowadzonego przez Przemysława Majchrzaka",
           "Hajs jest, strony nie ma, ewenement"
