@@ -1,71 +1,378 @@
 [
   {
-    "id": 0,
     "name": "Webdesign",
     "items": [
       {
-        "name": "OSK Majchrzak",
-        "thumbnail": "images/scr.png",
+        "name": "Kumalg Films",
+        "thumbnail": "webdesign/kumalg/thumb.jpg",
         "content": [
-          "Projekt strony www przygotowany dla ośrodka szkolenia kierowców OSK Majchrzak prowadzonego przez Przemysława Majchrzaka",
-          "Hajs jest, strony nie ma, ewenement"
+          "Projekt strony www na której właśnie się znajdujesz."
         ],
-        "onlineUrl": "http://majchrzak.info.pl",
-        "online": "majchrzak.info.pl",
+        "online": "http://kumalg.pl",
+        "macbook": true,
         "screenshots": [
-          "images/scr.png"
-        ],
-        "macbook": "images/scr.png"
+          "webdesign/kumalg/full.png"
+        ]
       },
       {
-        "name": "OSK Majchrzak",
-        "thumbnail": "images/scr.png",
+        "name": "Kratex 4x4",
+        "thumbnail": "webdesign/kratex-4x4/thumb.jpg",
         "content": [
-          "Projekt strony www przygotowany dla ośrodka szkolenia kierowców OSK Majchrzak prowadzonego przez Przemysława Majchrzaka",
-          "Hajs jest, strony nie ma, ewenement"
+          "Projekt strony www przygotowany dla firmy Kratex 4x4 ze Zduńskiej Woli."
         ],
-        "onlineUrl": "http://majchrzak.info.pl",
-        "online": "majchrzak.info.pl",
-        "vids": [
-          "<iframe src='https://player.vimeo.com/video/129544192' width='610' height='344' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen>",
-          "<iframe src='https://www.youtube.com/embed/SzSusThjdT4' width='610' height='344' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen>"
-        ],
+        "online": "http://kratex4x4.pl",
+        "macbook": true,
         "screenshots": [
-          "images/scr.png"
+          "webdesign/kratex-4x4/full1.png",
+          "webdesign/kratex-4x4/full2.png",
+          "webdesign/kratex-4x4/full3.png",
+          "webdesign/kratex-4x4/full4.png"
+        ]
+      },
+      {
+        "name": "Standard Express",
+        "thumbnail": "webdesign/standard-express/thumb.jpg",
+        "content": [
+          "Projekt strony www przygotowany dla zespołu Standard Express ze Zduńskiej Woli."
+        ],
+        "macbook": true,
+        "screenshots": [
+          "webdesign/standard-express/full.png"
         ]
       },
       {
         "name": "OSK Majchrzak",
-        "thumbnail": "images/scr.png",
+        "thumbnail": "webdesign/osk-majchrzak/thumb.jpg",
         "content": [
-          "Projekt strony www przygotowany dla ośrodka szkolenia kierowców OSK Majchrzak prowadzonego przez Przemysława Majchrzaka",
-          "Hajs jest, strony nie ma, ewenement"
+          "Projekt strony www przygotowany dla ośrodka szkoleniowego OSK Majchrzak ze Zduńskiej Woli."
         ],
-        "onlineUrl": "http://majchrzak.info.pl",
-        "online": "majchrzak.info.pl",
-        "macbook": "images/scr.png",
+        "macbook": true,
         "screenshots": [
-          "images/scr.png"
+          "webdesign/osk-majchrzak/full.png"
+        ]
+      },
+      {
+        "name": "Lucky Language",
+        "thumbnail": "webdesign/lucky-language/thumb.jpg",
+        "content": [
+          "Projekt strony www przygotowany dla firmy Lucky Language z Opola."
+        ],
+        "macbook": true,
+        "screenshots": [
+          "webdesign/lucky-language/full.png"
+        ]
+      },
+      {
+        "name": "Roman Baran",
+        "thumbnail": "webdesign/roman-baran/thumb.jpg",
+        "content": [
+          "Projekt strony www przygotowany dla kierowcy wyścigowego - Romana Barana."
+        ],
+        "macbook": true,
+        "screenshots": [
+          "webdesign/roman-baran/full.png"
+        ]
+      },
+      {
+        "name": "I Liceum Ogólnokształcące w Zduńskiej Woli",
+        "thumbnail": "webdesign/i-lo-zdw/thumb.jpg",
+        "content": [
+          "Projekt strony www przygotowany dla I Liceum Ogólnokształcącego im. Kazimierza Wielkiego w Zduńskiej Woli."
+        ],
+        "online": "http://pierwszelozdwola.ksiezyc.pl",
+        "macbook": true,
+        "screenshots": [
+          "webdesign/i-lo-zdw/full.png"
+        ]
+      },
+      {
+        "name": "GSMP Shop",
+        "thumbnail": "webdesign/gsmp/thumb.jpg",
+        "content": [
+          "Projekt strony www przygotowany dla internetowego sklepu GSMP."
+        ],
+        "macbook": true,
+        "screenshots": [
+          "webdesign/gsmp/full1.png",
+          "webdesign/gsmp/full2.png"
+        ]
+      },
+      {
+        "name": "TOTO Autoserwis",
+        "thumbnail": "webdesign/toto/thumb.jpg",
+        "content": [
+          "Projekt strony www przygotowany dla firmy TOTO Autoserwis."
+        ],
+        "macbook": true,
+        "screenshots": [
+          "webdesign/toto/full.png"
         ]
       }
     ]
   },
   {
-    "id": 1,
     "name": "Grafika",
     "items": [
+      {
+        "name": "Mars",
+        "thumbnail": "grafika/mars/thumb.jpg",
+        "content": [
+          "Ilustracja przedstawiająca planetę Mars.",
+          "Cinema 4D + Photoshop"
+        ],
+        "images": [
+          "grafika/mars/full.jpg"
+        ]
+      },
+      {
+        "name": "Cinema 4D - Test",
+        "thumbnail": "grafika/c4d-test/thumb.jpg",
+        "content": [
+          "Ilustracje prezentujące 3 abstrakcyjne ujęcia bliżej niezidentyfikowanych obiektów.",
+          "Cinema 4D + Photoshop"
+        ],
+        "images": [
+          "grafika/c4d-test/full1.jpg",
+          "grafika/c4d-test/full2.jpg",
+          "grafika/c4d-test/full3.jpg"
+        ]
+      },
+      {
+        "name": "Elektrum",
+        "thumbnail": "grafika/elektrum/thumb.jpg",
+        "content": [
+          "Projeky logotypu oraz potykacza przygotowane dla firmy Elektrum z Łodzi."
+        ],
+        "images": [
+          "grafika/elektrum/full1.png",
+          "grafika/elektrum/full2.jpg"
+        ]
+      },
+      {
+        "name": "Kratex 4x4",
+        "thumbnail": "grafika/kratex-4x4/thumb.jpg",
+        "content": [
+          "Projekt logotypu przygotowany dla firmy Kratex 4x4 ze Zduńskiej Woli."
+        ],
+        "images": [
+          "grafika/kratex-4x4/full2.png"
+        ]
+      },
+      {
+        "name": "PlayStation 20th Anniversary",
+        "thumbnail": "grafika/ps-20th/thumb.jpg",
+        "content": [
+          "Ilustracje przygotowane na konkurs organizowany przez Playstation Polska z okazji 20-lecia istnienia marki PlayStation - PlayStation 20th Anniversary."
+        ],
+        "images": [
+          "grafika/ps-20th/full1.jpg",
+          "grafika/ps-20th/full2.png"
+        ]
+      },
+      {
+        "name": "Ratusz Zduńska Wola",
+        "thumbnail": "grafika/ratusz/thumb.jpg",
+        "content": [
+          "2 projekty logotypów Zduńskowolskiego Centrum Integracji Ratusz przygotowane na konkurs organizowany przez MDK Zduńska Wola."
+        ],
+        "images": [
+          "grafika/ratusz/full1.png",
+          "grafika/ratusz/full2.png"
+        ]
+      },
+      {
+        "name": "EwelantBouw",
+        "thumbnail": "grafika/ewelant-bouw/thumb.jpg",
+        "content": [
+          "Projekt logotypu przygotowany dla firmy EwelantBouw z Holandii."
+        ],
+        "images": [
+          "grafika/ewelant-bouw/full.png"
+        ]
+      },
+      {
+        "name": "VLine",
+        "thumbnail": "grafika/vline/thumb.jpg",
+        "content": [
+          "Ilustracje na bannery reklamowe przygotowane dla firmy VLine ze Zduńskiej Woli."
+        ],
+        "images": [
+          "grafika/vline/full1.jpg",
+          "grafika/vline/full2.jpg",
+          "grafika/vline/full3.jpg"
+        ]
+      },
+      {
+        "name": "Skansen Lokomotyw w Karsznicach",
+        "thumbnail": "grafika/skansen/thumb.jpg",
+        "content": [
+          "Ilustracje promocyjne przygotowane dla Skansenu Lokomotyw w Karsznicach"
+        ],
+        "images": [
+          "grafika/skansen/full1.jpg",
+          "grafika/skansen/full2.jpg"
+        ]
+      }
     ]
   },
   {
-    "id": 2,
     "name": "Animacja",
     "items": [
+      {
+        "name": "Kumalg Films",
+        "thumbnail": "animacja/kumalg/thumb.jpg",
+        "content": [
+          "Intro Kumalg Films."
+        ]
+      },
+      {
+        "name": "Ratusz Zduńska Wola",
+        "thumbnail": "animacja/ratusz/thumb.jpg",
+        "content": [
+          "Intro przygotowane dla Ratusz Zduńska Wola."
+        ]
+      },
+      {
+        "name": "CaseWeek 2014",
+        "thumbnail": "animacja/caseweek/thumb.jpg",
+        "content": [
+          "Intro przygotowane na potrzeby CaseWeek (Edycja 2014) - największego cyklu warsztatów inżynierskich w Polsce."
+        ]
+      },
+      {
+        "name": "ZW Media",
+        "thumbnail": "animacja/zw-media/thumb.jpg",
+        "content": [
+          "Ramówka przygotowana dla zduńskowolskiej telewizji ZW Media."
+        ]
+      },
+      {
+        "name": "Skanska",
+        "thumbnail": "animacja/skanska/thumb.jpg",
+        "content": [
+          "Intro przygotowane dla firmy Skanska na potrzeby budynku Green Corner."
+        ]
+      },
+      {
+        "name": "Rossmann",
+        "thumbnail": "animacja/rossmann/thumb.jpg",
+        "content": [
+          "Intro przygotowane dla firmy Rossmann na potrzeby ROSSnews."
+        ]
+      },
+      {
+        "name": "GSMP",
+        "thumbnail": "animacja/gsmp/thumb.jpg",
+        "content": [
+          "Intro przygotowane na potrzeby internetowych relacji z zawodów Górskich Samochodowych Mistrzostw Polski."
+        ]
+      }
     ]
   },
   {
-    "id": 3,
     "name": "Filmy",
     "items": [
+      {
+        "name": "Tomorrowland",
+        "thumbnail": "filmy/tomorrowland-2015/thumb.jpg",
+        "content": [
+          "Film promujący festiwal Tomorrowland w Belgii przygotowany na konkurs."
+        ]
+      },
+      {
+        "name": "Palący problem",
+        "thumbnail": "filmy/palacy-problem/thumb.jpg",
+        "content": [
+          "Film pt. \"Palący problem\" przygotowany na ogólnopolski konkurs \"Kiedy warto dać ognia?\" organizowanego przez BIC oraz MillionYou. Film zdobył nagrodę publiczności."
+        ]
+      },
+      {
+        "name": "Mantica",
+        "thumbnail": "filmy/mantica/thumb.jpg",
+        "content": [
+          "Filmy przygotowane dla firmy Mantica ze Zduńskiej Woli prezentujące działanie oraz zalety systemu Mantica KD."
+        ]
+      },
+      {
+        "name": "Cykliczne oszczędzanie",
+        "thumbnail": "filmy/cykliczne-oszczedzanie/thumb.jpg",
+        "content": [
+          "Film pt. \"Cykliczne oszczędzanie\" przygotowany na ogólnopolski konkurs \"Energooszczędzanie na ekranie\" organizowanego przez firmę Tauron. Film zajął VII miejsce."
+        ]
+      },
+      {
+        "name": "JANE - To co ważne, nie zapominaj",
+        "thumbnail": "filmy/jane-to-co-wazne/thumb.jpg",
+        "content": [
+          "Klip wykonany do utworu JANE - \"To co ważne, nie zapominaj\" nakręcony w łódzkiej Manufakturze."
+        ]
+      },
+      {
+        "name": "Porwanie",
+        "thumbnail": "filmy/porwanie/thumb.jpg",
+        "content": [
+          "Film promujący I Liceum Ogólnokształcące w Zduńskiej Woli na rok 2014 pod tytułem \"Porwanie\"."
+        ]
+      },
+      {
+        "name": "Turniej FIFA",
+        "thumbnail": "filmy/turniej-fifa/thumb.jpg",
+        "content": [
+          "Relacja z II Zdunskowskiego Turnieju FIFA 2014."
+        ]
+      },
+      {
+        "name": "WOŚP",
+        "thumbnail": "filmy/wosp/thumb.jpg",
+        "content": [
+          "Relacje z Wielkiej Orkiestry Świątecznej Pomocy w Zduńskiej Woli."
+        ]
+      },
+      {
+        "name": "Glass Future",
+        "thumbnail": "filmy/glass-future/thumb.jpg",
+        "content": [
+          "Film pt. \"Glass Future\" przygotowany na ogólnopolski konkurs \"Kamera! Akcja! Nowoczesna edukacja!\" organizowanego przez MillionYou. Film zajął III miejsce."
+        ]
+      },
+      {
+        "name": "Piaski - short test",
+        "thumbnail": "filmy/piaski/thumb.jpg",
+        "content": [
+          "Krótki test umiejętności matte-painting."
+        ]
+      },
+      {
+        "name": "I Liceum Ogólnokształcące w Zduńskiej Woli",
+        "thumbnail": "filmy/i-lo-zdw/thumb.jpg",
+        "content": [
+          "Film promujący I Liceum Ogólnokształcące w Zduńskiej Woli na rok 2013."
+        ]
+      },
+      {
+        "name": "OWFP",
+        "thumbnail": "filmy/owfp/thumb.jpg",
+        "content": [
+          "Relacje z Otwartych Warsztatów Fotografii Plenerowej organizowanych na terenie Zduńskiej Woli i okolicach. Organizatorami warsztatów są: Maciej Stawski oraz Tomasz Bąk"
+        ]
+      },
+      {
+        "name": "Monument Valley",
+        "thumbnail": "filmy/monument-valley/thumb.jpg",
+        "content": [
+          "Film Monument Valley został wyświetlony na festiwalu \"Po Godzinach\" organizowanym przez \"OFF Plus Camera\" natomiast Monument Valley 2 zajął I miejsce w międzyszkolnym konkursie \"Mam talent\" podczas Katarzynek w Plastyku."
+        ],
+        "_vids": [
+          {
+            "title": "Monument Valley",
+            "code": "<iframe src='https://player.vimeo.com/video/129544192' width='610' height='344' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen>"
+          },
+          {
+            "title": "Monument Valley 2",
+            "code": "<iframe src='https://www.youtube.com/embed/SzSusThjdT4' width='610' height='344' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen>"
+          }
+        ]
+      }
     ]
   }
 ]

@@ -689,7 +689,7 @@ nav{
         transition: 1s;
         flex-wrap: wrap;
         .item{
-          flex: 1 33%;
+          flex: 0 33%;
           cursor: pointer;
           position: relative;
           .text{
@@ -732,16 +732,14 @@ nav{
           }
         }
         @media (max-width: 820px){
-          display: block;
           .item{
-            display: inline-block;
-            width: 50%;
+            justify-content: flex-start;
+            flex: 0 50%;
           }
         }
         @media (max-width: 480px){
-          text-align: left;
           .item{
-            width: 25%;
+            flex: 0 25%;
             .text{
               display: none;
             }
@@ -766,6 +764,7 @@ nav{
         right: 0;
         visibility: hidden;
         opacity: 0;
+        z-index: -1;
       }
     }
     .display{
@@ -843,7 +842,7 @@ nav{
           }
           .macbook-inside{
             position: absolute;
-            top: 2%;
+            top: 5%;
             z-index: 0;
             left: 10%;
             right: 10%;
@@ -857,6 +856,19 @@ nav{
         }
         .vid-wrapper{
           margin-bottom: 52px;
+          h2{
+            font-size: 1.25em;
+            margin-bottom: 18px;
+            font-family: $font-lato;
+            color: $white;
+            text-align: right;
+            font-weight: $light;
+          }
+        }
+        .image{
+          display: block;
+          margin: 0 auto 52px;
+          height: auto;
         }
       }
       .image{

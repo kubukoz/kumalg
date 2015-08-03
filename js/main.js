@@ -11,7 +11,7 @@ var nameToUrl = function(name){
     return removeDiacr(name.split(" ").join("-").split("/").join("-").toLowerCase().split("\"").join(""));
 }
 
-var app = angular.module("kumalg", ["ngScrollSpy", "duScroll", "textAngular", "ngSilent", "ngRoute", "fitVids"]);
+var app = angular.module("kumalg", ["ngScrollSpy", "duScroll", "textAngular", "ngRoute", "fitVids"]);
 app.run(function($rootScope, $templateCache){
     $templateCache.put("templates/home.html", angular.element(document.getElementById("site")).html())
 });
@@ -26,9 +26,6 @@ app.config(function (scrollspyConfigProvider, $httpProvider, $locationProvider, 
             templateUrl: "templates/home.html"
         })
         .when("/index.html", {redirectTo: "/"})
-        .when("/login", {templateUrl: "templates/login.html", controller: "LoginController"})
-        .when("/:category", {templateUrl: "templates/home.html"})
-        .when("/:category/:selectedItem", {templateUrl: "templates/home.html"})
         .otherwise({redirectTo: "/"})
 ;
 });
@@ -61,43 +58,22 @@ app.controller("ClientController", function($scope, $http){
         $scope.clients = result;
     })
 })
-app.controller("PortfolioController", function($scope, $routeParams, $document, $timeout, $location, $ngSilentLocation, $http){
+app.controller("PortfolioController", function($scope, $routeParams, $document, $timeout, $location, $http){
     $scope.portfolio = {cats: [], selected: 0, selectedItem: null};
 
     $http.get("api/portfolio.json").success(function(result){
         $scope.portfolio.cats = result;
-    })
-    $scope.selectCategory = function(category){
-        $ngSilentLocation.silent("/"+nameToUrl(category.name));
-        angular.extend($scope.portfolio, {selected: category.id, selectedItem: null})
-    }
+    });
+    $scope.selectCategory = function(index){
+        angular.extend($scope.portfolio, {selected: index, selectedItem: null})
+    };
     $scope.selectItem = function(item){
         $scope.portfolio.selectedItem = item;
         $document.scrollToElement(angular.element(document.getElementsByClassName("display")[0]), 100, 500);
-    }
-    if($routeParams.category){
-        for (var i = 0; i < $scope.portfolio.cats.length; i++) {
-            var cat = $scope.portfolio.cats[i];
-            if (nameToUrl(cat.name) == $routeParams.category) {
-                $scope.portfolio.selected = cat.id;
-                if ($routeParams.selectedItem) {
-                    for (var j = 0; j < cat.items.length; j++) {
-                        var item = cat.items[j];
-                        if (nameToUrl(item.name) == $routeParams.selectedItem) {
-                            $scope.portfolio.selectedItem = item;
-                            break;
-                        }
-                    }
-                    if($scope.portfolio.selectedItem==null) $ngSilentLocation.silent("/"+$routeParams.category);
-                }
-                $timeout(function(){
-                    $document.scrollToElement(angular.element(document.getElementById("portfolio")), 70, 1000);
-                }, 100);
-                break;
-            }
-        }
-        if($scope.portfolio.selected<0) $ngSilentLocation.silent("/")
-    } else $scope.portfolio.selected=0;
+    };
+    $scope.unselectItem = function(){
+        $scope.portfolio.selectedItem = null;
+    };
 });
 app.filter("trustAsHtml", function($sce){
     return function(input){
@@ -114,6 +90,11 @@ app.filter("range", function(){
         return input;
     }
 });
+app.filter("stripProtocol", function(){
+    return function(url){
+        return url?url.split("://").slice(1).join("://"):"";
+    }
+})
 app.directive("kzScroll", function($window){
     return {
         scope: false,

@@ -19,6 +19,15 @@
     <!--<meta property="og:image" content="http://kumalg.pl/images/og_image.png">-->
     <!--<meta name="keywords" content=""/>-->
     <!--<meta property="og:description" content=""/>-->
+	<script>
+		!function(k,g,f,i,l,m,s){k.GoogleAnalyticsObject=f;k[f]||(k[f]=function(){
+			(k[f].q=k[f].q||[]).push(arguments)});k[f].l=+new Date;m=g.createElement(i);
+			s=g.getElementsByTagName(i)[0];m.src=l;s.parentNode.insertBefore(m,s)}
+		(window,document,'ga','script','//www.google-analytics.com/analytics.js');
+
+		ga('create', 'UA-55943015-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 </head>
 <body>
 <div ng-view id="site">
@@ -207,17 +216,17 @@
 		<div class="nsz">
 			<h1 class="heading">Portfolio</h1>
 			<ul class="selector">
-				<li ng-repeat="category in portfolio.cats" ng-class="{'active': portfolio.selected==category.id}"><a ng-click="selectCategory(category)">{{category.name}}</a></li>
+				<li ng-repeat="category in portfolio.cats" ng-class="{'active': portfolio.selected==$index}"><a ng-click="selectCategory($index)">{{category.name}}</a></li>
 			</ul>
 			<div class="stuff">
 				<div class="lists" ng-class="{'hidden':portfolio.selectedItem}">
 					<div class="list" ng-repeat="list in portfolio.cats" ng-class="{'active': portfolio.selected==$index}">
 						<div class="item" ng-repeat="item in list.items" ng-click="selectItem(item)">
 							<div class="text">
-								<img src="images/icons/play.svg"/>
+								<img ng-src="images/icons/{{item.vids.length?'play':'show'}}.svg"/>
 								<p ng-bind="item.name"></p>
 							</div>
-							<div class="image" ng-style="{'background': 'url('+(item.screenshots[0] || '') +') no-repeat top / cover'}"></div>
+							<div class="image" ng-style="{'background': 'url(images/portfolio/'+(item.thumbnail || '') +') no-repeat top / cover'}"></div>
 							<img src="images/icons/square.jpg"/>
 						</div>
 					</div>
@@ -226,24 +235,30 @@
 					<h1 ng-bind-html="portfolio.selectedItem.name"></h1>
 					<div class="left">
 						<p ng-repeat="line in portfolio.selectedItem.content" ng-bind-html="line"></p>
-						<div class="online" ng-show="portfolio.selectedItem.onlineUrl.length">
+						<div class="online" ng-show="portfolio.selectedItem.online.length">
 							<b>Online:</b>
-							<a ng-href="{{portfolio.selectedItem.onlineUrl}}" ng-bind="portfolio.selectedItem.online"></a>
+							<a ng-href="{{portfolio.selectedItem.online}}" ng-bind="portfolio.selectedItem.online | stripProtocol"></a>
 						</div>
-						<button type="button" ng-click="portfolio.selectedItem = null"><i class="fa fa-arrow-left"></i> Powrót</button>
+						<button type="button" ng-click="unselectItem()"><i class="fa fa-arrow-left"></i> Powrót</button>
 					</div>
 					<div class="right">
-						<div class="macbook" ng-show="portfolio.selectedItem.macbook.length">
+						<div class="macbook" ng-show="portfolio.selectedItem.macbook">
 							<img src="images/macbook.png"/>
-							<div class="macbook-inside" ng-style="{'background-image': 'url('+portfolio.selectedItem.macbook+')'}"></div>
+							<div class="macbook-inside" ng-style="{'background-image': 'url(images/portfolio/'+portfolio.selectedItem.screenshots[0]+')'}"></div>
 						</div>
 						<div fit-vids timeout="100">
-							<div class="vid-wrapper" ng-repeat="vid in portfolio.selectedItem.vids" ng-bind-html="vid | trustAsHtml">
+							<div ng-repeat="vid in portfolio.selectedItem.vids" class="vid-wrapper">
+								<h2 ng-show="vid.title" ng-bind-html="vid.title"></h2>
+								<div ng-bind-html="vid.code | trustAsHtml">
+								</div>
 							</div>
+						</div>
+						<div class="image" ng-repeat="image in portfolio.selectedItem.images">
+							<img ng-src="images/portfolio/{{image}}"/>
 						</div>
 					</div>
 					<div class="image" ng-repeat="image in portfolio.selectedItem.screenshots">
-						<img ng-src="{{image}}"/>
+						<img ng-src="images/portfolio/{{image}}"/>
 					</div>
 				</div>
 			</div>
@@ -420,7 +435,6 @@
 <script src="bower_components/textAngular/dist/textAngular-rangy.min.js"></script>
 <script src="bower_components/angular-scroll/angular-scroll.min.js"></script>
 <script src="bower_components/angular-fitvids/angular-fitvids.js"></script>
-<script src="bower_components/ngSilent/ngSilent.js"></script>
 <script src="bower_components/ng-ScrollSpy.js/src/ng-ScrollSpy.js"></script>
 <script src="bower_components/angular-route/angular-route.min.js"></script>
 <script src="js/main.js"></script>
