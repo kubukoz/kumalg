@@ -223,6 +223,11 @@
         "thumbnail": "animacja/kumalg/thumb.jpg",
         "content": [
           "Intro Kumalg Films."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"259\" src=\"https://player.vimeo.com/video/117601666\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
@@ -230,6 +235,11 @@
         "thumbnail": "animacja/ratusz/thumb.jpg",
         "content": [
           "Intro przygotowane dla Ratusz Zduńska Wola."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/108506024\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
@@ -237,6 +247,11 @@
         "thumbnail": "animacja/caseweek/thumb.jpg",
         "content": [
           "Intro przygotowane na potrzeby CaseWeek (Edycja 2014) - największego cyklu warsztatów inżynierskich w Polsce."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/107478431\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
@@ -244,6 +259,11 @@
         "thumbnail": "animacja/zw-media/thumb.jpg",
         "content": [
           "Ramówka przygotowana dla zduńskowolskiej telewizji ZW Media."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/76092287\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
@@ -251,6 +271,11 @@
         "thumbnail": "animacja/skanska/thumb.jpg",
         "content": [
           "Intro przygotowane dla firmy Skanska na potrzeby budynku Green Corner."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/5fNuvZT8QzI\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
@@ -258,6 +283,11 @@
         "thumbnail": "animacja/rossmann/thumb.jpg",
         "content": [
           "Intro przygotowane dla firmy Rossmann na potrzeby ROSSnews."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/SJCfxCk8H24\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
@@ -265,6 +295,11 @@
         "thumbnail": "animacja/gsmp/thumb.jpg",
         "content": [
           "Intro przygotowane na potrzeby internetowych relacji z zawodów Górskich Samochodowych Mistrzostw Polski."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/ulPZPhkeb3Y\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       }
     ]
@@ -277,6 +312,11 @@
         "thumbnail": "filmy/tomorrowland-2015/thumb.jpg",
         "content": [
           "Film promujący festiwal Tomorrowland w Belgii przygotowany na konkurs."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/SzSusThjdT4\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
@@ -284,6 +324,16 @@
         "thumbnail": "filmy/palacy-problem/thumb.jpg",
         "content": [
           "Film pt. \"Palący problem\" przygotowany na ogólnopolski konkurs \"Kiedy warto dać ognia?\" organizowanego przez BIC oraz MillionYou. Film zdobył nagrodę publiczności."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/zWaFM3lL_hk\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Palący problem - Kiedy warto dać ognia"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/ijkhP_TybX0\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "VFX Breakdown"
+          }
         ]
       },
       {
@@ -291,6 +341,20 @@
         "thumbnail": "filmy/mantica/thumb.jpg",
         "content": [
           "Filmy przygotowane dla firmy Mantica ze Zduńskiej Woli prezentujące działanie oraz zalety systemu Mantica KD."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/125657024\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Dzień z Mantica"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/125657688\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Dlaczego Mantica - Wagary"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/129544192\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Dlaczego Mantica - Nieproszona osoba"
+          }
         ]
       },
       {
@@ -298,6 +362,11 @@
         "thumbnail": "filmy/cykliczne-oszczedzanie/thumb.jpg",
         "content": [
           "Film pt. \"Cykliczne oszczędzanie\" przygotowany na ogólnopolski konkurs \"Energooszczędzanie na ekranie\" organizowanego przez firmę Tauron. Film zajął VII miejsce."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"260\" src=\"https://www.youtube.com/embed/GTI4o_TLLho\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
@@ -305,6 +374,11 @@
         "thumbnail": "filmy/jane-to-co-wazne/thumb.jpg",
         "content": [
           "Klip wykonany do utworu JANE - \"To co ważne, nie zapominaj\" nakręcony w łódzkiej Manufakturze."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"259\" src=\"https://www.youtube.com/embed/2HO3A9483jQ\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
@@ -312,6 +386,16 @@
         "thumbnail": "filmy/porwanie/thumb.jpg",
         "content": [
           "Film promujący I Liceum Ogólnokształcące w Zduńskiej Woli na rok 2014 pod tytułem \"Porwanie\"."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/hQToZ1RD0Ao\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Porwanie"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/Ctkn9ZTZLuE\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Making of"
+          }
         ]
       },
       {
@@ -319,6 +403,11 @@
         "thumbnail": "filmy/turniej-fifa/thumb.jpg",
         "content": [
           "Relacja z II Zdunskowskiego Turnieju FIFA 2014."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/hYkdJfGIuJU\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
@@ -326,6 +415,16 @@
         "thumbnail": "filmy/wosp/thumb.jpg",
         "content": [
           "Relacje z Wielkiej Orkiestry Świątecznej Pomocy w Zduńskiej Woli."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/XgyhvJCWYLQ\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "WOŚP 2015"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/Mj8fpGx375s\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "WOŚP 2014"
+          }
         ]
       },
       {
@@ -333,6 +432,11 @@
         "thumbnail": "filmy/glass-future/thumb.jpg",
         "content": [
           "Film pt. \"Glass Future\" przygotowany na ogólnopolski konkurs \"Kamera! Akcja! Nowoczesna edukacja!\" organizowanego przez MillionYou. Film zajął III miejsce."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"259\" src=\"https://player.vimeo.com/video/107474154\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
@@ -340,6 +444,11 @@
         "thumbnail": "filmy/piaski/thumb.jpg",
         "content": [
           "Krótki test umiejętności matte-painting."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"259\" src=\"https://player.vimeo.com/video/74933730\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
@@ -347,6 +456,11 @@
         "thumbnail": "filmy/i-lo-zdw/thumb.jpg",
         "content": [
           "Film promujący I Liceum Ogólnokształcące w Zduńskiej Woli na rok 2013."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/EE6WqTlmAp8\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
@@ -354,6 +468,20 @@
         "thumbnail": "filmy/owfp/thumb.jpg",
         "content": [
           "Relacje z Otwartych Warsztatów Fotografii Plenerowej organizowanych na terenie Zduńskiej Woli i okolicach. Organizatorami warsztatów są: Maciej Stawski oraz Tomasz Bąk"
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/ouP5zeAlU2o\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "OWFP Karsznice"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/4jNf1xslIJ0\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "OWFP Retrospekcja"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/4hGYhQsRo_I\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "OWFP Sieradz"
+          }
         ]
       },
       {
@@ -362,14 +490,14 @@
         "content": [
           "Film Monument Valley został wyświetlony na festiwalu \"Po Godzinach\" organizowanym przez \"OFF Plus Camera\" natomiast Monument Valley 2 zajął I miejsce w międzyszkolnym konkursie \"Mam talent\" podczas Katarzynek w Plastyku."
         ],
-        "_vids": [
+        "vids": [
           {
-            "title": "Monument Valley",
-            "code": "<iframe src='https://player.vimeo.com/video/129544192' width='610' height='344' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen>"
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/OqOZ7CmDnfw\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Monument Valley 2"
           },
           {
-            "title": "Monument Valley 2",
-            "code": "<iframe src='https://www.youtube.com/embed/SzSusThjdT4' width='610' height='344' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen>"
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/KYpTINQwL8c\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Monument Valley"
           }
         ]
       }

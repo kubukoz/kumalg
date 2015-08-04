@@ -237,7 +237,7 @@
 						<p ng-repeat="line in portfolio.selectedItem.content" ng-bind-html="line"></p>
 						<div class="online" ng-show="portfolio.selectedItem.online.length">
 							<b>Online:</b>
-							<a ng-href="{{portfolio.selectedItem.online}}" ng-bind="portfolio.selectedItem.online | stripProtocol"></a>
+							<a ng-href="{{portfolio.selectedItem.online}}" target="_blank" ng-bind="portfolio.selectedItem.online | stripProtocol"></a>
 						</div>
 						<button type="button" ng-click="unselectItem()"><i class="fa fa-arrow-left"></i> Powrót</button>
 					</div>
