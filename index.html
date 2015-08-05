@@ -24,7 +24,6 @@
 			(k[f].q=k[f].q||[]).push(arguments)});k[f].l=+new Date;m=g.createElement(i);
 			s=g.getElementsByTagName(i)[0];m.src=l;s.parentNode.insertBefore(m,s)}
 		(window,document,'ga','script','//www.google-analytics.com/analytics.js');
-
 		ga('create', 'UA-55943015-1', 'auto');
 		ga('send', 'pageview');
 	</script>
@@ -157,7 +156,7 @@
 		<div class="info">
             <edit-mode admin="admin" action="save" args="me" edit-var="editMode"></edit-mode>
 			<h1>Kamil Golec</h1>
-			<p>Mieszkam w Zduńskiej Woli. Interesuję się grafiką, animacją i filmowaniem. Tym ostatnim pasjonuję się od zawsze, a grafiką i animacją od 5 lat. W wolnych chwilach lubię spojrzeć w rozgwieżdżone niebo i zachwycać się pięknem kosmosu.</p>
+			<p>Mieszkam w Zduńskiej Woli. Interesuję się grafiką, animacją i filmowaniem. Tym ostatnim pasjonuję się od zawsze, a grafiką i animacją od 5 lat. W wolnych chwilach lubię spoglądać w rozgwieżdżone niebo i zachwycać się pięknem kosmosu.</p>
 		</div>
 	</section>
 	<section id="osiagniecia" scrollspy-broadcast scrollspy-offset="70">
@@ -219,7 +218,7 @@
 				<li ng-repeat="category in portfolio.cats" ng-class="{'active': portfolio.selected==$index}"><a ng-click="selectCategory($index)">{{category.name}}</a></li>
 			</ul>
 			<div class="stuff">
-				<div class="lists" ng-class="{'hidden':portfolio.selectedItem}">
+				<div class="lists" ng-class="{'hidden':portfolio.display}">
 					<div class="list" ng-repeat="list in portfolio.cats" ng-class="{'active': portfolio.selected==$index}">
 						<div class="item" ng-repeat="item in list.items" ng-click="selectItem(item)">
 							<div class="text">
@@ -231,7 +230,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="display" ng-class="{'hidden':!portfolio.selectedItem}">
+				<div class="display" ng-class="{'hidden':!portfolio.display}">
 					<h1 ng-bind-html="portfolio.selectedItem.name"></h1>
 					<div class="left">
 						<p ng-repeat="line in portfolio.selectedItem.content" ng-bind-html="line"></p>
@@ -242,12 +241,12 @@
 						<button type="button" ng-click="unselectItem()"><i class="fa fa-arrow-left"></i> Powrót</button>
 					</div>
 					<div class="right">
-						<div class="macbook" ng-show="portfolio.selectedItem.macbook">
+						<div class="macbook" ng-if="portfolio.selectedItem.macbook">
 							<img src="images/macbook.png"/>
 							<div class="macbook-inside" ng-style="{'background-image': 'url(images/portfolio/'+portfolio.selectedItem.screenshots[0]+')'}"></div>
 						</div>
-						<div fit-vids timeout="100">
-							<div ng-repeat="vid in portfolio.selectedItem.vids" class="vid-wrapper">
+						<div>
+							<div fit-vids timeout="1000" ng-repeat="vid in portfolio.selectedItem.vids" class="vid-wrapper">
 								<h2 ng-show="vid.title" ng-bind-html="vid.title"></h2>
 								<div ng-bind-html="vid.code | trustAsHtml">
 								</div>

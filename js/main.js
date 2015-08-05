@@ -6,10 +6,10 @@ var removeDiacr = function(str){
     for (var i = 0; i < original.length; i++)
         s = s.split(original[i]).join(resultin[i]);
     return s;
-}
+};
 var nameToUrl = function(name){
     return removeDiacr(name.split(" ").join("-").split("/").join("-").toLowerCase().split("\"").join(""));
-}
+};
 
 var app = angular.module("kumalg", ["ngScrollSpy", "duScroll", "textAngular", "ngRoute", "fitVids"]);
 app.run(function($rootScope, $templateCache){
@@ -59,7 +59,7 @@ app.controller("ClientController", function($scope, $http){
     })
 })
 app.controller("PortfolioController", function($scope, $routeParams, $document, $timeout, $location, $http){
-    $scope.portfolio = {cats: [], selected: 0, selectedItem: null};
+    $scope.portfolio = {cats: [], selected: 0, selectedItem: null, display: false};
 
     $http.get("api/portfolio.json").success(function(result){
         $scope.portfolio.cats = result;
@@ -68,11 +68,15 @@ app.controller("PortfolioController", function($scope, $routeParams, $document, 
         angular.extend($scope.portfolio, {selected: index, selectedItem: null})
     };
     $scope.selectItem = function(item){
+        $scope.portfolio.display = true;
         $scope.portfolio.selectedItem = item;
         $document.scrollToElement(angular.element(document.getElementsByClassName("display")[0]), 100, 500);
     };
     $scope.unselectItem = function(){
-        $scope.portfolio.selectedItem = null;
+        $scope.portfolio.display = false;
+        $timeout(function(){
+            $scope.portfolio.selectedItem = null;
+        }, 500);
     };
 });
 app.filter("trustAsHtml", function($sce){

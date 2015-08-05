@@ -829,6 +829,7 @@ nav{
       .right{
         flex: 2 66%;
         padding-left: 30px;
+        overflow: auto;
         .macbook{
           margin-top: 7px;
           position: relative;
@@ -879,9 +880,8 @@ nav{
         }
       }
       @media screen and (max-width: 650px){
-        flex-direction: column;
+        display: block;
         .left{
-          flex: auto;
           p{
             text-align: left;
           }
@@ -893,7 +893,6 @@ nav{
           }
         }
         .right{
-          flex: auto;
           padding-left: 0;
         }
       }
