@@ -460,10 +460,18 @@ nav{
             font-weight: $bold;
           }
           ul{
-            margin-top: 15px;
+            margin-top: 5px;
             li{
               display: flex;
               align-items: center;
+              color: $white;
+              font-size: .875em;
+              text-transform: uppercase;
+              font-family: $font-lato;
+              margin-top: 10px;
+              span{
+                flex: 1 0;
+              }
               &:before{
                 background: url("../images/icons/klienci-plus.svg") no-repeat center / contain;
                 width: 20px;
@@ -471,13 +479,6 @@ nav{
                 display: block;
                 content: '';
                 margin-right: 10px;
-              }
-              color: $white;
-              font-size: .875em;
-              text-transform: uppercase;
-              font-family: $font-lato;
-              &:not(:last-of-type){
-                margin-bottom: 10px;
               }
             }
           }

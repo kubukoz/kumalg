@@ -65,7 +65,10 @@ app.controller("PortfolioController", function($scope, $routeParams, $document, 
         $scope.portfolio.cats = result;
     });
     $scope.selectCategory = function(index){
-        angular.extend($scope.portfolio, {selected: index, selectedItem: null})
+        angular.extend($scope.portfolio, {selected: index, display: false})
+        $timeout(function(){
+            $scope.portfolio.selectedItem = null;
+        }, 500);
     };
     $scope.selectItem = function(item){
         $scope.portfolio.display = true;
