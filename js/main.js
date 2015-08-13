@@ -44,6 +44,9 @@ app.controller("OsiagnieciaController", function($scope, $http){
 });
 app.controller("KlienciOMnieController", function($scope, $http){
     var op = $scope.opinions = {items: [], selected: 0};
+    op.next = function(){
+        op.selected+=(op.selected<op.items.length-1)?1:-op.selected;
+    }
     $http.get("api/klienci-o-mnie.json").success(function(result){
         op.items = result;
     })
@@ -126,3 +129,26 @@ app.directive("kzScroll", function($window){
         }
     }
 });
+//todo move to own module
+app.directive("intervalOnNoHover", function($interval){
+    return {
+        scope: {intervalOnNoHover: "=", interval: "="},
+        link: function(scope, elem){
+            var promise;
+            var bind = function(){
+                if(promise == null) promise = $interval(function(){
+                    scope.intervalOnNoHover && scope.intervalOnNoHover();
+                }, scope.interval || 1000)
+            };
+            var stop = function(){
+                if(promise!=null){
+                    $interval.cancel(promise);
+                    promise = null;
+                }
+            };
+            elem.on("mouseout", bind);
+            elem.on("mouseover", stop);
+            bind();
+        }
+    }
+})

@@ -156,13 +156,13 @@
 		<div class="info">
             <edit-mode admin="admin" action="save" args="me" edit-var="editMode"></edit-mode>
 			<h1>Kamil Golec</h1>
-			<p>Mieszkam w Zduńskiej Woli. Interesuję się grafiką, animacją i filmowaniem. Tym ostatnim pasjonuję się od zawsze, a grafiką i animacją od 5 lat. W wolnych chwilach lubię spoglądać w rozgwieżdżone niebo i zachwycać się pięknem kosmosu.</p>
+			<p>Mieszkam w Zduńskiej Woli. Interesuję się grafiką, animacją i filmowaniem. Tym ostatnim pasjonuję się od zawsze, a grafiką i animacją od 5 lat. W wolnych chwilach lubię spoglądać w rozgwieżdżone niebo, zachwycać się pięknem kosmosu i słuchać <a href="https://www.youtube.com/watch?v=gl2p4G3CUrI" target="_blank">elektro</a>.</p>
 		</div>
 	</section>
-	<section id="osiagniecia" scrollspy-broadcast scrollspy-offset="70">
-		<div class="nsz">
+	<section id="osiagniecia" scrollspy-broadcast scrollspy-offset="70" ng-controller="OsiagnieciaController">
+		<div class="nsz" interval-on-no-hover="achievements.next" interval="4000">
 			<h1 class="heading">Osiągnięcia</h1>
-			<div class="items" ng-controller="OsiagnieciaController">
+			<div class="items">
 				<div class="slide" ng-repeat="slide in [] | range:achievements.slideCount" ng-class="{'active': achievements.active==$index, 'left': achievements.active>$index, 'right': achievements.active<$index}">
 					<div class="item" ng-repeat="item in achievements.items.slice($index*3, $index*3+3)">
 						<div class="image"><img ng-src="{{item.imgUrl}}"/></div>
@@ -185,7 +185,7 @@
 		</ul>
 	</section>
 	<section id="klienci-o-mnie" scrollspy-broadcast scrollspy-offset="70" ng-controller="KlienciOMnieController">
-		<div class="nsz">
+		<div class="nsz" interval-on-no-hover="opinions.next" interval="4000">
 			<h1 class="heading">Klienci o mnie</h1>
 			<div class="items">
 				<div class="item" ng-repeat="item in opinions.items" ng-class="{'active': $index==opinions.selected}">

@@ -1,14 +1,5 @@
 [
   {
-    "quote": "Współpracę z Panem Kamilem Golcem prowadzimy od ponad 2 lat. W tym czasie realizowaliśmy projekty stron www, projekty graficzne katalogów produktowych, a także materiały promocyjne takie jak ulotki, banery, plakaty. Pan Kamil zawsze wykonywał wszystkie zlecenia profesjonalnie i na najwyższym poziomie. Polecamy współpracę z tym kreatywnym grafikiem",
-    "author": "Łukasz Strzelecki",
-    "project": "TEAM PROMOTION Marketing i PR sportowy",
-    "duties": [
-      "Projekty stron WWW (w&nbsp;tym&nbsp;Lucky&nbsp;Language)",
-      "Materiały promocyjne (w&nbsp;tym&nbsp;Lucky&nbsp;Language)"
-    ]
-  },
-  {
     "quote": "Praca z  Panem Golcem to czysta przyjemność. Pełen profesjonalizm, bardzo dobry kontakt z klientem, głowa pełna pomysłów, elastyczność. Człowiek otwarty na potrzeby klienta. Wszystko na czas. Polecamy.",
     "author": "Mariusz Tucki",
     "project": "Mantica",
@@ -17,12 +8,21 @@
     ]
   },
   {
-    "quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.",
-    "author": "Przemysław Majchrzak",
-    "project": "OSK Majchrzak",
+    "quote": "Współpraca przebiegała sprawnie, w dobrej atmosferze, pan Kamil jest bardzo kreatywny, ma mnóstwo pomysłów, a równocześnie jest otwarty na sugestie i oczekiwania klienta. Generalnie polecam: zlecenie zostało zrealizowane szybko, efekt jest satysfakcjonujący, cena przystępna.",
+    "author": "Iwona Wasiak",
+    "project": "Elektrum",
     "duties": [
       "Projekt logotypu",
-      "Projekt strony WWW"
+      "Materiały promocyjne"
+    ]
+  },
+  {
+    "quote": "Współpracę z Panem Kamilem Golcem prowadzimy od ponad 2 lat. W tym czasie realizowaliśmy projekty stron www, projekty graficzne katalogów produktowych, a także materiały promocyjne takie jak ulotki, banery, plakaty. Pan Kamil zawsze wykonywał wszystkie zlecenia profesjonalnie i na najwyższym poziomie. Polecamy współpracę z tym kreatywnym grafikiem",
+    "author": "Łukasz Strzelecki",
+    "project": "TEAM PROMOTION Marketing i PR sportowy",
+    "duties": [
+      "Projekty stron WWW (w&nbsp;tym&nbsp;Lucky&nbsp;Language)",
+      "Materiały promocyjne (w&nbsp;tym&nbsp;Lucky&nbsp;Language)"
     ]
   }
 ]

@@ -262,6 +262,10 @@ nav{
       color: $white;
       text-align: justify;
       line-height: 1.8em;
+      a{
+        font-weight: $regular;
+        color: $blue-dark;
+      }
     }
   }
   @media (max-width: 680px){
