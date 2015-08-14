@@ -5,35 +5,67 @@
     <base href="/"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <title>Kumalg Films</title>
+    <!--    __ __                                __
+           / //_/  __  __   ____ ___   ____ _   / /   ____ _
+          / ,<    / / / /  / __ `__ \ / __ `/  / /   / __ `/
+         / /| |  / /_/ /  / / / / / // /_/ /  / /   / /_/ /
+        /_/ |_|  \__,_/  /_/ /_/ /_/ \__,_/  /_/    \__, /
+                                                   /____/
+            ______    _     __
+           / ____/   (_)   / /   ____ ___    _____
+          / /_      / /   / /   / __ `__ \  / ___/
+         / __/     / /   / /   / / / / / / (__  )
+        /_/       /_/   /_/   /_/ /_/ /_/ /____/
+
+        The code used in this website may be more unstable than low-end Android devices.
+        It may burn your cat or cause the human race to become extinct.
+        You have been warned.
+
+        However, if you feel brave enough to use this code, you're free to do so.
+
+        Copyright (c) 2015 Jakub Kozłowski
+        https://raw.githubusercontent.com/kubukoz/kumalg/gh-pages/LICENSE
+
+        Check out my other works ;) http://github.com/kubukoz
+    -->
     <link rel="icon" href="images/favicon.ico"/>
-	<script src="bower_components/angular/angular.min.js"></script>
-	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="plugins/reset.css"/>
-	<link href="styles/main.css" rel="stylesheet"/>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="plugins/reset.css"/>
+    <link href="styles/main.css" rel="stylesheet"/>
     <link rel="stylesheet" href="bower_components/textAngular/src/textAngular.css"/>
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
-    <!--<meta name="description" content="KUMALG FILMS"/>-->
+    <meta name="description"
+          content="Mieszkam w Zduńskiej Woli. Interesuję się grafiką, animacją i filmowaniem. Tym ostatnim pasjonuję się od zawsze, a grafiką i animacją od 5 lat. W wolnych chwilach lubię spoglądać w rozgwieżdżone niebo, zachwycać się pięknem kosmosu i słuchać elektro."/>
     <meta property="og:title" content="Kumalg Films"/>
     <meta property="og:site_name" content="Kumalg Films"/>
     <meta property="og:image" content="http://kumalg.pl/images/og_image.png">
-    <!--<meta name="keywords" content=""/>-->
-    <!--<meta property="og:description" content=""/>-->
-	<script>
-		!function(k,g,f,i,l,m,s){k.GoogleAnalyticsObject=f;k[f]||(k[f]=function(){
-			(k[f].q=k[f].q||[]).push(arguments)});k[f].l=+new Date;m=g.createElement(i);
-			s=g.getElementsByTagName(i)[0];m.src=l;s.parentNode.insertBefore(m,s)}
-		(window,document,'ga','script','//www.google-analytics.com/analytics.js');
-		ga('create', 'UA-55943015-1', 'auto');
-		ga('send', 'pageview');
-	</script>
+    <meta name="keywords" content="golec, kamil, kumalg, films, kumalgfilms"/>
+    <script>
+        !function (k, g, f, i, l, m, s) {
+            k.GoogleAnalyticsObject = f;
+            k[f] || (k[f] = function () {
+                (k[f].q = k[f].q || []).push(arguments)
+            });
+            k[f].l = +new Date;
+            m = g.createElement(i);
+            s = g.getElementsByTagName(i)[0];
+            m.src = l;
+            s.parentNode.insertBefore(m, s)
+        }
+        (window, document, 'ga', 'script', '//www.google-analytics.com/analytics.js');
+        ga('create', 'UA-55943015-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 <body>
 <div ng-view id="site">
-	<header id="header" scrollspy-broadcast>
-		<section class="nsz">
-			<h1>Kumalg Films</h1>
-			<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+    <header id="header" scrollspy-broadcast>
+        <section class="nsz">
+            <h1>Kumalg Films</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 	 viewBox="146.478 81.386 699.17 177.386"
 	 enable-background="new 146.478 81.386 699.17 177.386" xml:space="preserve">
 <g>
@@ -84,11 +116,13 @@
 		c1.726,0,3.437-0.057,5.136-0.156l-5.204-59.15C752.16,197.313,745.393,194.196,740.556,189.199z"/>
 </g>
 </svg>
-			<h2>Filmy i nie tylko</h2>
-		</section>
-		<nav scrollspy-listen="o-mnie|osiagniecia|oferta|klienci-o-mnie|klienci|portfolio|kontakt|uslugi|footer" kz-scroll>
-			<div class="nsz">
-				<a href="#header" du-smooth-scroll offset="0"><svg xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+            <h2>Filmy i nie tylko</h2>
+        </section>
+        <nav scrollspy-listen="o-mnie|osiagniecia|oferta|klienci-o-mnie|klienci|portfolio|kontakt|uslugi|footer"
+             kz-scroll>
+            <div class="nsz">
+                <a href="#header" du-smooth-scroll offset="0">
+                    <svg xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
 	 viewBox="146.478 81.386 699.17 177.386"
 	 enable-background="new 146.478 81.386 699.17 177.386" xml:space="preserve">
 <g>
@@ -138,148 +172,180 @@
 		L697.859,211.24L697.859,211.24z M740.556,189.199l-48.429,34.503l0.023,0.055c15.732,20.023,40.152,32.883,67.572,32.883
 		c1.726,0,3.437-0.057,5.136-0.156l-5.204-59.15C752.16,197.313,745.393,194.196,740.556,189.199z"/>
 </g>
-</svg></a>
-				<ul>
-					<li><a href="#o-mnie" offset="70" scrollspy-listen="o-mnie|osiagniecia" du-smooth-scroll><i class="fa fa-user"></i>O mnie</a></li>
-					<li><a href="#oferta" offset="70" scrollspy-listen="oferta" du-smooth-scroll><i class="fa fa-folder-open"></i>Oferta</a></li>
-					<li><a href="#klienci-o-mnie" offset="70" scrollspy-listen="klienci-o-mnie|klienci" du-smooth-scroll><i class="fa fa-users"></i>Klienci</a></li>
-					<li><a href="#portfolio" offset="70" scrollspy-listen="portfolio" du-smooth-scroll><i class="fa fa-file-photo-o"></i>Portfolio</a></li>
-					<li><a href="#kontakt" offset="70" scrollspy-listen="kontakt|uslugi|footer" du-smooth-scroll><i class="fa fa-comments-o"></i>Kontakt</a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-	<section id="o-mnie" class="nsz" scrollspy-broadcast scrollspy-offset="70">
-		<div class="image">
-			<img src="images/me.jpg"/>
-		</div>
-		<div class="info">
+</svg>
+                </a>
+                <ul>
+                    <li><a href="#o-mnie" offset="70" scrollspy-listen="o-mnie|osiagniecia" du-smooth-scroll><i
+                            class="fa fa-user"></i>O mnie</a></li>
+                    <li><a href="#oferta" offset="70" scrollspy-listen="oferta" du-smooth-scroll><i
+                            class="fa fa-folder-open"></i>Oferta</a></li>
+                    <li><a href="#klienci-o-mnie" offset="70" scrollspy-listen="klienci-o-mnie|klienci"
+                           du-smooth-scroll><i class="fa fa-users"></i>Klienci</a></li>
+                    <li><a href="#portfolio" offset="70" scrollspy-listen="portfolio" du-smooth-scroll><i
+                            class="fa fa-file-photo-o"></i>Portfolio</a></li>
+                    <li><a href="#kontakt" offset="70" scrollspy-listen="kontakt|uslugi|footer" du-smooth-scroll><i
+                            class="fa fa-comments-o"></i>Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="o-mnie" class="nsz" scrollspy-broadcast scrollspy-offset="70">
+        <div class="image">
+            <img src="images/me.jpg"/>
+        </div>
+        <div class="info">
             <edit-mode admin="admin" action="save" args="me" edit-var="editMode"></edit-mode>
-			<h1>Kamil Golec</h1>
-			<p>Mieszkam w Zduńskiej Woli. Interesuję się grafiką, animacją i filmowaniem. Tym ostatnim pasjonuję się od zawsze, a grafiką i animacją od 5 lat. W wolnych chwilach lubię spoglądać w rozgwieżdżone niebo, zachwycać się pięknem kosmosu i słuchać <a href="https://www.youtube.com/watch?v=gl2p4G3CUrI" target="_blank">elektro</a>.</p>
-		</div>
-	</section>
-	<section id="osiagniecia" scrollspy-broadcast scrollspy-offset="70" ng-controller="OsiagnieciaController">
-		<div class="nsz" kz-interval-unless-hover="achievements.next" kz-interval="4000" kz-padding="0.1">
-			<h1 class="heading">Osiągnięcia</h1>
-			<div class="items">
-				<div class="slide" ng-repeat="slide in [] | range:achievements.slideCount" ng-class="{'active': achievements.active==$index, 'left': achievements.active>$index, 'right': achievements.active<$index}">
-					<div class="item" ng-repeat="item in achievements.items.slice($index*3, $index*3+3)">
-						<div class="image"><img ng-src="{{item.imgUrl}}"/></div>
-						<p ng-bind-html="item.content"></p>
-					</div>
-				</div>
-				<div class="arrow left" ng-click="achievements.previous()"></div>
-				<div class="arrow right" ng-click="achievements.next()"></div>
-			</div>
-		</div>
-	</section>
-	<section id="oferta" scrollspy-broadcast scrollspy-offset="70" class="nsz" ng-controller="OfertaController">
-		<h1 class="heading">Oferta</h1>
-		<ul>
-			<li ng-repeat="item in proposals">
-				<img ng-src="{{item.imgSrc}}">
-				<h2 ng-bind-html="item.title"></h2>
-				<p ng-bind-html="item.content"></p>
-			</li>
-		</ul>
-	</section>
-	<section id="klienci-o-mnie" scrollspy-broadcast scrollspy-offset="70" ng-controller="KlienciOMnieController">
-		<div class="nsz" kz-interval-unless-hover="opinions.next" kz-interval="4000" kz-padding="0.1">
-			<h1 class="heading">Klienci o mnie</h1>
-			<div class="items">
-				<div class="item" ng-repeat="item in opinions.items" ng-class="{'active': $index==opinions.selected}">
-					<div class="quote">
-						<p ng-bind="item.quote"></p>
-						<h2 ng-bind="item.author"></h2>
-					</div>
-					<div class="info">
-						<h2 ng-bind="item.project"></h2>
-						<ul>
-							<li ng-repeat="duty in item.duties"><span ng-bind-html="duty"></span></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="indicator">
-				<div class="item" ng-repeat="x in [0,1,2]" ng-click="opinions.selected=$index" ng-class="{'selected': opinions.selected==$index}"></div>
-			</div>
-		</div>
-	</section>
-	<section id="klienci" scrollspy-broadcast scrollspy-offset="70" ng-controller="ClientController">
-		<div class="nsz">
-			<div class="client" ng-repeat="client in clients"><img ng-src="{{client.imgSrc}}" ng-attr-alt="{{client.name}}" ng-attr-title="{{client.name}}"/></div>
-		</div>
-	</section>
-	<section id="portfolio" scrollspy-broadcast scrollspy-offset="70" ng-controller="PortfolioController">
-		<div class="nsz">
-			<h1 class="heading">Portfolio</h1>
-			<ul class="selector">
-				<li ng-repeat="category in portfolio.cats" ng-class="{'active': portfolio.selected==$index}"><a ng-click="selectCategory($index)">{{category.name}}</a></li>
-			</ul>
-			<div class="stuff">
-				<div class="lists" ng-class="{'hidden':portfolio.display}">
-					<div class="list" ng-repeat="list in portfolio.cats" ng-class="{'active': portfolio.selected==$index}">
-						<div class="item" ng-repeat="item in list.items" ng-click="selectItem(item)">
-							<div class="text">
-								<img ng-src="images/icons/{{item.vids.length?'play':'show'}}.svg"/>
-								<p ng-bind="item.name"></p>
-							</div>
-							<div class="image" ng-style="{'background': 'url(images/portfolio/'+(item.thumbnail || '') +') no-repeat top / cover'}"></div>
-							<img src="images/icons/square.jpg"/>
-						</div>
-					</div>
-				</div>
-				<div class="display" ng-class="{'hidden':!portfolio.display}">
-					<h1 ng-bind-html="portfolio.selectedItem.name"></h1>
-					<div class="left">
-						<p ng-repeat="line in portfolio.selectedItem.content" ng-bind-html="line"></p>
-						<div class="online" ng-show="portfolio.selectedItem.online.length">
-							<b>Online:</b>
-							<a ng-href="{{portfolio.selectedItem.online}}" target="_blank" ng-bind="portfolio.selectedItem.online | stripProtocol"></a>
-						</div>
-						<button type="button" ng-click="unselectItem()"><i class="fa fa-arrow-left"></i> Powrót</button>
-					</div>
-					<div class="right">
-						<div class="macbook" ng-if="portfolio.selectedItem.macbook">
-							<img src="images/macbook.png"/>
-							<div class="macbook-inside" ng-style="{'background-image': 'url(images/portfolio/'+portfolio.selectedItem.screenshots[0]+')'}"></div>
-						</div>
-						<div>
-							<div fit-vids timeout="1000" ng-repeat="vid in portfolio.selectedItem.vids" class="vid-wrapper">
-								<h2 ng-show="vid.title" ng-bind-html="vid.title"></h2>
-								<div ng-bind-html="vid.code | trustAsHtml">
-								</div>
-							</div>
-						</div>
-						<div class="image" ng-repeat="image in portfolio.selectedItem.images">
-							<img ng-src="images/portfolio/{{image}}"/>
-						</div>
-					</div>
-					<div class="image" ng-repeat="image in portfolio.selectedItem.screenshots">
-						<img ng-src="images/portfolio/{{image}}"/>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="kontakt" scrollspy-broadcast scrollspy-offset="70">
-		<div class="nsz">
-			<a class="icon mail" target="_blank" href="mailto:kumalgfilms@gmail.com">
-				<svg version="1.1" id="Mail" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            <h1>Kamil Golec</h1>
+
+            <p>Mieszkam w Zduńskiej Woli. Interesuję się grafiką, animacją i filmowaniem. Tym ostatnim pasjonuję się od
+                zawsze, a grafiką i animacją od 5 lat. W wolnych chwilach lubię spoglądać w rozgwieżdżone niebo,
+                zachwycać się pięknem kosmosu i słuchać <a href="https://www.youtube.com/watch?v=gl2p4G3CUrI"
+                                                           target="_blank">elektro</a>.</p>
+        </div>
+    </section>
+    <section id="osiagniecia" scrollspy-broadcast scrollspy-offset="70" ng-controller="OsiagnieciaController">
+        <div class="nsz" kz-interval-unless-hover="achievements.next" kz-interval="4000" kz-padding="0.1">
+            <h1 class="heading">Osiągnięcia</h1>
+
+            <div class="items">
+                <div class="slide" ng-repeat="slide in [] | range:achievements.slideCount"
+                     ng-class="{'active': achievements.active==$index, 'left': achievements.active>$index, 'right': achievements.active<$index}">
+                    <div class="item" ng-repeat="item in achievements.items.slice($index*3, $index*3+3)">
+                        <div class="image"><img ng-src="{{item.imgUrl}}"/></div>
+                        <p ng-bind-html="item.content"></p>
+                    </div>
+                </div>
+                <div class="arrow left" ng-click="achievements.previous()"></div>
+                <div class="arrow right" ng-click="achievements.next()"></div>
+            </div>
+        </div>
+    </section>
+    <section id="oferta" scrollspy-broadcast scrollspy-offset="70" class="nsz" ng-controller="OfertaController">
+        <h1 class="heading">Oferta</h1>
+        <ul>
+            <li ng-repeat="item in proposals">
+                <img ng-src="{{item.imgSrc}}">
+
+                <h2 ng-bind-html="item.title"></h2>
+
+                <p ng-bind-html="item.content"></p>
+            </li>
+        </ul>
+    </section>
+    <section id="klienci-o-mnie" scrollspy-broadcast scrollspy-offset="70" ng-controller="KlienciOMnieController">
+        <div class="nsz" kz-interval-unless-hover="opinions.next" kz-interval="4000" kz-padding="0.1">
+            <h1 class="heading">Klienci o mnie</h1>
+
+            <div class="items">
+                <div class="item" ng-repeat="item in opinions.items" ng-class="{'active': $index==opinions.selected}">
+                    <div class="quote">
+                        <p ng-bind="item.quote"></p>
+
+                        <h2 ng-bind="item.author"></h2>
+                    </div>
+                    <div class="info">
+                        <h2 ng-bind="item.project"></h2>
+                        <ul>
+                            <li ng-repeat="duty in item.duties"><span ng-bind-html="duty"></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="indicator">
+                <div class="item" ng-repeat="x in [0,1,2]" ng-click="opinions.selected=$index"
+                     ng-class="{'selected': opinions.selected==$index}"></div>
+            </div>
+        </div>
+    </section>
+    <section id="klienci" scrollspy-broadcast scrollspy-offset="70" ng-controller="ClientController">
+        <div class="nsz">
+            <div class="client" ng-repeat="client in clients"><img ng-src="{{client.imgSrc}}"
+                                                                   ng-attr-alt="{{client.name}}"
+                                                                   ng-attr-title="{{client.name}}"/></div>
+        </div>
+    </section>
+    <section id="portfolio" scrollspy-broadcast scrollspy-offset="70" ng-controller="PortfolioController">
+        <div class="nsz">
+            <h1 class="heading">Portfolio</h1>
+            <ul class="selector">
+                <li ng-repeat="category in portfolio.cats" ng-class="{'active': portfolio.selected==$index}"><a
+                        ng-click="selectCategory($index)">{{category.name}}</a></li>
+            </ul>
+            <div class="stuff">
+                <div class="lists" ng-class="{'hidden':portfolio.display}">
+                    <div class="list" ng-repeat="list in portfolio.cats"
+                         ng-class="{'active': portfolio.selected==$index}">
+                        <div class="item" ng-repeat="item in list.items" ng-click="selectItem(item)">
+                            <div class="text">
+                                <img ng-src="images/icons/{{item.vids.length?'play':'show'}}.svg"/>
+
+                                <p ng-bind="item.name"></p>
+                            </div>
+                            <div class="image"
+                                 ng-style="{'background': 'url(images/portfolio/'+(item.thumbnail || '') +') no-repeat top / cover'}"></div>
+                            <img src="images/icons/square.jpg"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="display" ng-class="{'hidden':!portfolio.display}">
+                    <h1 ng-bind-html="portfolio.selectedItem.name"></h1>
+
+                    <div class="left">
+                        <p ng-repeat="line in portfolio.selectedItem.content" ng-bind-html="line"></p>
+
+                        <div class="online" ng-show="portfolio.selectedItem.online.length">
+                            <b>Online:</b>
+                            <a ng-href="{{portfolio.selectedItem.online}}" target="_blank"
+                               ng-bind="portfolio.selectedItem.online | stripProtocol"></a>
+                        </div>
+                        <button type="button" ng-click="unselectItem()"><i class="fa fa-arrow-left"></i> Powrót</button>
+                    </div>
+                    <div class="right">
+                        <div class="macbook" ng-if="portfolio.selectedItem.macbook">
+                            <img src="images/macbook.png"/>
+
+                            <div class="macbook-inside"
+                                 ng-style="{'background-image': 'url(images/portfolio/'+portfolio.selectedItem.screenshots[0]+')'}"></div>
+                        </div>
+                        <div>
+                            <div fit-vids timeout="1000" ng-repeat="vid in portfolio.selectedItem.vids"
+                                 class="vid-wrapper">
+                                <h2 ng-show="vid.title" ng-bind-html="vid.title"></h2>
+
+                                <div ng-bind-html="vid.code | trustAsHtml">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image" ng-repeat="image in portfolio.selectedItem.images">
+                            <img ng-src="images/portfolio/{{image}}"/>
+                        </div>
+                    </div>
+                    <div class="image" ng-repeat="image in portfolio.selectedItem.screenshots">
+                        <img ng-src="images/portfolio/{{image}}"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="kontakt" scrollspy-broadcast scrollspy-offset="70">
+        <div class="nsz">
+            <a class="icon mail" target="_blank" href="mailto:kumalgfilms@gmail.com">
+                <svg version="1.1" id="Mail" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 	 viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <path d="M41.262,41.006h-22.5c-2.071,0-3.75-1.642-3.75-3.667v-11l15,7.333l15-7.333v11
 	C45.012,39.364,43.332,41.006,41.262,41.006z M15.012,22.672c0-2.024,1.679-3.666,3.75-3.666h22.5c2.07,0,3.75,1.642,3.75,3.666
 	l-15,7.334L15.012,22.672z"/>
-</svg></a>
-			<a class="icon facebook" target="_blank" href="https://www.facebook.com/KumalgFilms">
-				<svg version="1.1" id="Fb" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+</svg>
+            </a>
+            <a class="icon facebook" target="_blank" href="https://www.facebook.com/KumalgFilms">
+                <svg version="1.1" id="Fb" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
 	 viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <path d="M32.16,22.349v3.65h5.621l-0.748,5.717H32.16v14.659h-5.87V31.716h-4.892v-5.717h4.892v-4.211
 	c0-4.887,2.974-7.552,7.31-7.552c2.07,0,3.855,0.154,4.373,0.231v5.1h-3.012C32.602,19.567,32.16,20.707,32.16,22.349z"/>
-</svg>		</a>
-			<a class="icon youtube" target="_blank" href="https://www.youtube.com/user/kumalg">
-				<svg version="1.1" id="YT" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+</svg>
+            </a>
+            <a class="icon youtube" target="_blank" href="https://www.youtube.com/user/kumalg">
+                <svg version="1.1" id="YT" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
 	 viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <path d="M40.71,46.691c-3.53,0.406-7.099,0.406-10.648,0.406c-3.549,0-7.117,0-10.646-0.406
 	c-1.478-0.153-2.725-1.273-3.07-2.801c-0.498-2.162-0.498-4.539-0.498-6.76c0-2.24,0.019-4.597,0.498-6.76
@@ -306,9 +372,10 @@
 	c-0.557,0-0.825,0.444-0.825,1.333v4.056c0,0.889,0.269,1.352,0.825,1.352c0.576,0,0.824-0.463,0.824-1.352V18.571z M24.767,25.428
 	h-1.918v-5.234c-0.173-0.946-0.557-2.299-1.17-4.095c-0.422-1.197-0.845-2.414-1.248-3.611h2.034l1.362,5.079l1.305-5.079h1.957
 	l-2.322,7.706V25.428z"/>
-</svg></a>
-			<a class="icon vimeo" target="_blank" href="https://vimeo.com/kumalg">
-				<svg version="1.1" id="Vimeo" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+</svg>
+            </a>
+            <a class="icon vimeo" target="_blank" href="https://vimeo.com/kumalg">
+                <svg version="1.1" id="Vimeo" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
 	 viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <path d="M39.148,38.449c-2.174,2.986-4.801,5.874-8.109,7.865c-1.2,0.764-3.634,1.692-5.223,0.996
 	c-3.18-1.361-4.282-6.938-5.191-10.688c-0.551-2.189-1.038-4.281-1.719-6.206c-0.487-1.428-0.714-2.888-1.493-4.216
@@ -318,9 +385,9 @@
 	c0.325-3.585-1.361-4.083-4.541-3.817c1.784-5.741,7.104-8.131,8.661-8.396c1.946-0.298,4.737-0.232,6.067,1.494
 	c0.939,1.228,0.973,2.82,0.681,4.381C47,23.514,44.243,31.479,39.148,38.449z"/>
 </svg>
-			</a>
-			<a class="icon behance" target="_blank" href="https://www.behance.net/kumalg">
-				<svg version="1.1" id="Behance" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+            </a>
+            <a class="icon behance" target="_blank" href="https://www.behance.net/kumalg">
+                <svg version="1.1" id="Behance" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
 	 viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <path d="M39.373,45.011H20.624c-3.105,0-5.625-2.521-5.625-5.627V20.628c0-3.106,2.52-5.627,5.625-5.627h18.749
 	c3.105,0,5.625,2.521,5.625,5.627v18.756C44.998,42.49,42.479,45.011,39.373,45.011z M29.667,25.981
@@ -331,43 +398,45 @@
 	h-4.96C34.55,29.322,35.525,28.403,36.991,28.403z M24.491,34.93h-3.613v-4.24h3.691c1.484,0,2.422,0.646,2.422,2.209
 	C26.991,34.461,25.878,34.93,24.491,34.93z M24.315,28.385h-3.438v-3.596h3.184c1.211,0,2.324,0.332,2.324,1.759
 	C26.386,27.856,25.526,28.385,24.315,28.385z"/>
-</svg>		</a>
-		</div>
-	</section>
-	<section id="uslugi" scrollspy-broadcast scrollspy-offset="70">
-		<div class="nsz">
-			<div class="ul-wrapper">
-				<ul>
-					<li class="title">Webdesign</li>
-					<li>Szablony stron WWW</li>
-					<li>Banery internetowe</li>
-				</ul>
-				<ul>
-					<li class="title">Grafika</li>
-					<li>Banery reklamowe</li>
-					<li>Ulotki</li>
-					<li>Wizytówki</li>
-					<li>Loga</li>
-				</ul>
-				<ul>
-					<li class="title">Animacja</li>
-					<li>Czołówki</li>
-					<li>Drobne animacje</li>
-				</ul>
-				<ul>
-					<li class="title">Filmy</li>
-					<li>Reklamy</li>
-					<li>Relacje</li>
-					<li>Teledyski</li>
-					<li>Filmy krótkometrażowe</li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<footer id="footer" scrollspy-broadcast scrollspy-offset="70" ng-controller="FooterController">
-		<div class="nsz">
-			<div class="block logo-mini">
-				<a href="#header" du-smooth-scroll duration="1000"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+</svg>
+            </a>
+        </div>
+    </section>
+    <section id="uslugi" scrollspy-broadcast scrollspy-offset="70">
+        <div class="nsz">
+            <div class="ul-wrapper">
+                <ul>
+                    <li class="title">Webdesign</li>
+                    <li>Szablony stron WWW</li>
+                    <li>Banery internetowe</li>
+                </ul>
+                <ul>
+                    <li class="title">Grafika</li>
+                    <li>Banery reklamowe</li>
+                    <li>Ulotki</li>
+                    <li>Wizytówki</li>
+                    <li>Loga</li>
+                </ul>
+                <ul>
+                    <li class="title">Animacja</li>
+                    <li>Czołówki</li>
+                    <li>Drobne animacje</li>
+                </ul>
+                <ul>
+                    <li class="title">Filmy</li>
+                    <li>Reklamy</li>
+                    <li>Relacje</li>
+                    <li>Teledyski</li>
+                    <li>Filmy krótkometrażowe</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" scrollspy-broadcast scrollspy-offset="70" ng-controller="FooterController">
+        <div class="nsz">
+            <div class="block logo-mini">
+                <a href="#header" du-smooth-scroll duration="1000">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 	 viewBox="146.478 81.386 699.17 177.386"
 	 enable-background="new 146.478 81.386 699.17 177.386" xml:space="preserve">
 <g>
@@ -417,17 +486,18 @@
 		L697.859,211.24L697.859,211.24z M740.556,189.199l-48.429,34.503l0.023,0.055c15.732,20.023,40.152,32.883,67.572,32.883
 		c1.726,0,3.437-0.057,5.136-0.156l-5.204-59.15C752.16,197.313,745.393,194.196,740.556,189.199z"/>
 </g>
-</svg></a>
-			</div>
-			<div class="block copyright">
-				<i>Copyright &copy; {{currentYear}} <b>Kamil Golec</b></i>
-			</div>
-			<div class="block authors">
-				<i>Design: <a href="http://kumalg.pl">Kamil Golec</a></i>
-				<i>Code: <a href="http://kubukoz.github.io" target="_blank">Jakub Kozłowski</a></i>
-			</div>
-		</div>
-	</footer>
+</svg>
+                </a>
+            </div>
+            <div class="block copyright">
+                <i>Copyright &copy; {{currentYear}} <b>Kamil Golec</b></i>
+            </div>
+            <div class="block authors">
+                <i>Design: <a href="http://kumalg.pl">Kamil Golec</a></i>
+                <i>Code: <a href="http://kubukoz.github.io" target="_blank">Jakub Kozłowski</a></i>
+            </div>
+        </div>
+    </footer>
 </div>
 <script src="bower_components/textAngular/dist/textAngular.min.js"></script>
 <script src="bower_components/textAngular/dist/textAngular-sanitize.min.js"></script>
