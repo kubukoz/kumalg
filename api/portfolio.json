@@ -143,7 +143,7 @@
         "name": "Elektrum",
         "thumbnail": "grafika/elektrum/thumb.jpg",
         "content": [
-          "Projeky logotypu oraz potykacza przygotowane dla firmy Elektrum z Łodzi."
+          "Projeky logotypu oraz roll up-u przygotowane dla firmy Elektrum z Łodzi."
         ],
         "images": [
           "grafika/elektrum/full1.png",
@@ -346,7 +346,8 @@
         "name": "Glass Future",
         "thumbnail": "filmy/glass-future/thumb.jpg",
         "content": [
-          "Film pt. \"Glass Future\" przygotowany na ogólnopolski konkurs \"Kamera! Akcja! Nowoczesna edukacja!\" organizowanego przez MillionYou. Film zajął III miejsce."
+          "Film pt. \"Glass Future\" przygotowany na ogólnopolski konkurs \"Kamera! Akcja! Nowoczesna edukacja!\" organizowanego przez MillionYou.",
+          "Film zajął III miejsce."
         ],
         "vids": [
           {
@@ -386,7 +387,8 @@
         "name": "Palący problem",
         "thumbnail": "filmy/palacy-problem/thumb.jpg",
         "content": [
-          "Film pt. \"Palący problem\" przygotowany na ogólnopolski konkurs \"Kiedy warto dać ognia?\" organizowanego przez BIC oraz MillionYou. Film zdobył nagrodę publiczności."
+          "Film pt. \"Palący problem\" przygotowany na ogólnopolski konkurs \"Kiedy warto dać ognia?\" organizowanego przez BIC oraz MillionYou.",
+          "Film zdobył nagrodę publiczności."
         ],
         "vids": [
           {
@@ -402,6 +404,7 @@
         "name": "Monument Valley",
         "thumbnail": "filmy/monument-valley/thumb.jpg",
         "content": [
+          "Krótkie filmy z serii \"Monument Valley\" wykonane w technice animacji poklatkowej. Pochodza z lat 2009 oraz 2011.", 
           "Film Monument Valley został wyświetlony na festiwalu \"Po Godzinach\" organizowanym przez \"OFF Plus Camera\" natomiast Monument Valley 2 zajął I miejsce w międzyszkolnym konkursie \"Mam talent\" podczas Katarzynek w Plastyku."
         ],
         "vids": [
@@ -448,7 +451,8 @@
         "name": "Cykliczne oszczędzanie",
         "thumbnail": "filmy/cykliczne-oszczedzanie/thumb.jpg",
         "content": [
-          "Film pt. \"Cykliczne oszczędzanie\" przygotowany na ogólnopolski konkurs \"Energooszczędzanie na ekranie\" organizowanego przez firmę Tauron. Film zajął VII miejsce."
+          "Film pt. \"Cykliczne oszczędzanie\" przygotowany na ogólnopolski konkurs \"Energooszczędzanie na ekranie\" organizowanego przez firmę Tauron.", 
+          "Film zajął VII miejsce."
         ],
         "vids": [
           {
