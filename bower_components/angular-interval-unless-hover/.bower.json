@@ -1,14 +1,13 @@
 {
   "name": "angular-interval-unless-hover",
   "homepage": "https://github.com/kubukoz/angular-interval-unless-hover",
-  "_release": "aaf3c5d316",
+  "_release": "87b9deb845",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "aaf3c5d3162edb863ca25c99c0874352eef66b6c"
+    "commit": "87b9deb845f3e0277d64d4d6958b64b7ec69d5a5"
   },
   "_source": "git://github.com/kubukoz/angular-interval-unless-hover.git",
   "_target": "*",
-  "_originalSource": "angular-interval-unless-hover",
-  "_direct": true
+  "_originalSource": "angular-interval-unless-hover"
 }

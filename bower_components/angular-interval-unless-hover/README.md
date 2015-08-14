@@ -38,3 +38,4 @@ template.html
 #Attributes
 * __kz-interval-unless-hover__ - required, specifies the function called in intervals if the user is not hovering the element it's used on
 * __kz-interval__ - optional, specifies the timeout between function calls. 1000 by default.
+* __kz-padding__ - optional, set to a float (e.g. 0.1) to disable function calls if the element's not in the (1-2*padding) central part of the screen - in this case, 80%. If not specified, the calls will be made even if the element's completely invisible.

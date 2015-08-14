@@ -18,7 +18,7 @@ Install
 
     $ npm install angular-scroll
 
-You can also download the [production version](https://raw.github.com/oblador/angular-scroll/master/angular-scroll.min.js)or the [development version](https://raw.github.com/oblador/angular-scroll/master/angular-scroll.js).
+You can also download the [production version](https://raw.github.com/oblador/angular-scroll/master/angular-scroll.min.js) or the [development version](https://raw.github.com/oblador/angular-scroll/master/angular-scroll.js).
 
 If you prefer a CDN hosted version (which might speed up your load times), check out [cdnjs.com/libraries/angular-scroll](https://cdnjs.com/libraries/angular-scroll).
 
@@ -241,6 +241,13 @@ To make the last `du-scrollspy` link active when scroll reaches page/container b
 angular.module('myApp', ['duScroll']).value('duScrollBottomSpy', true);
 ```
 
+### Active class
+Specify the active class name to apply to a link when it is active, default is `active`.
+
+```js
+angular.module('myApp', ['duScroll']).value('duScrollActiveClass', 'custom-class');
+```
+
 Events
 ------
 
@@ -248,8 +255,8 @@ The `duScrollspy` directive fires the global events `duScrollspy:becameActive` a
 
 ```js
 angular.module('myApp', ['duScroll']).
-  run(function($rootScope, $location) {
-    if(!history || !history.replaceState) {
+  run(function($rootScope) {
+    if(!window.history || !history.replaceState) {
       return;
     }
     $rootScope.$on('duScrollspy:becameActive', function($event, $element){
@@ -266,6 +273,8 @@ angular.module('myApp', ['duScroll']).
 Building
 --------
 
+    $ npm install
+    $ bower install
     $ gulp
 
 Tests
