@@ -11,7 +11,7 @@ var nameToUrl = function(name){
     return removeDiacr(name.split(" ").join("-").split("/").join("-").toLowerCase().split("\"").join(""));
 };
 
-var app = angular.module("kumalg", ["ngScrollSpy", "duScroll", "textAngular", "ngRoute", "fitVids"]);
+var app = angular.module("kumalg", ["ngScrollSpy", "duScroll", "textAngular", "ngRoute", "fitVids", "kzIntervalUnlessHover"]);
 app.run(function($rootScope, $templateCache){
     $templateCache.put("templates/home.html", angular.element(document.getElementById("site")).html())
 });
@@ -129,26 +129,3 @@ app.directive("kzScroll", function($window){
         }
     }
 });
-//todo move to own module
-app.directive("intervalOnNoHover", function($interval){
-    return {
-        scope: {intervalOnNoHover: "=", interval: "="},
-        link: function(scope, elem){
-            var promise;
-            var bind = function(){
-                if(promise == null) promise = $interval(function(){
-                    scope.intervalOnNoHover && scope.intervalOnNoHover();
-                }, scope.interval || 1000)
-            };
-            var stop = function(){
-                if(promise!=null){
-                    $interval.cancel(promise);
-                    promise = null;
-                }
-            };
-            elem.on("mouseout", bind);
-            elem.on("mouseover", stop);
-            bind();
-        }
-    }
-})
