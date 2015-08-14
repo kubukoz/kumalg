@@ -74,10 +74,7 @@ body {
 }
 
 header {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url("../images/backgrounds/splash.jpg");
+  background: url("../images/backgrounds/splash.svg") no-repeat center / cover;
   height: 100vh;
   position: relative;
   .nsz {
@@ -116,10 +113,6 @@ header {
       content: '';
     }
   }
-  @media screen and (max-width: 1024px){
-    background-image: url("../images/backgrounds/splash-small.jpg");
-  }
-
 }
 
 nav {
