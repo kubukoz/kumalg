@@ -160,7 +160,7 @@
 		</div>
 	</section>
 	<section id="osiagniecia" scrollspy-broadcast scrollspy-offset="70" ng-controller="OsiagnieciaController">
-		<div class="nsz" kz-interval-unless-hover="achievements.next" kz-interval="4000" kz-padding="0.3">
+		<div class="nsz" kz-interval-unless-hover="achievements.next" kz-interval="4000" kz-padding="0.1">
 			<h1 class="heading">Osiągnięcia</h1>
 			<div class="items">
 				<div class="slide" ng-repeat="slide in [] | range:achievements.slideCount" ng-class="{'active': achievements.active==$index, 'left': achievements.active>$index, 'right': achievements.active<$index}">
@@ -185,7 +185,7 @@
 		</ul>
 	</section>
 	<section id="klienci-o-mnie" scrollspy-broadcast scrollspy-offset="70" ng-controller="KlienciOMnieController">
-		<div class="nsz" kz-interval-unless-hover="opinions.next" kz-interval="4000" kz-padding="0.3">
+		<div class="nsz" kz-interval-unless-hover="opinions.next" kz-interval="4000" kz-padding="0.1">
 			<h1 class="heading">Klienci o mnie</h1>
 			<div class="items">
 				<div class="item" ng-repeat="item in opinions.items" ng-class="{'active': $index==opinions.selected}">
