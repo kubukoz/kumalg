@@ -1180,3 +1180,32 @@ footer {
     }
   }
 }
+
+#cookie-consent{
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: .2s;
+  background: $very-dark;
+  &.visible{
+    transform: translateY(0);
+  }
+  .nsz{
+    text-align: center;
+    font-family: $font-lato;
+    padding: 10px 20px;
+    max-width: 1000px;
+    font-size: .875em;
+    color: $white;
+    font-weight: $light;
+    a{
+      cursor: pointer;
+      transition: .2s;
+      font-weight: $regular;
+      color: $blue-dark;
+    }
+  }
+}

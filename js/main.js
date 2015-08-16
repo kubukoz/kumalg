@@ -11,7 +11,7 @@ var nameToUrl = function(name){
     return removeDiacr(name.split(" ").join("-").split("/").join("-").toLowerCase().split("\"").join(""));
 };
 
-var app = angular.module("kumalg", ["ngScrollSpy", "duScroll", "textAngular", "ngRoute", "fitVids", "kzIntervalUnlessHover"]);
+var app = angular.module("kumalg", ["ngScrollSpy", "duScroll", "textAngular", "ngRoute", "fitVids", "kzIntervalUnlessHover", "ngCookies"]);
 app.run(function($rootScope, $templateCache){
     $templateCache.put("templates/home.html", angular.element(document.getElementById("site")).html())
 });
@@ -129,3 +129,17 @@ app.directive("kzScroll", function($window){
         }
     }
 });
+app.directive("cookieConsent", function($cookies){
+    return {
+        scope: false,
+        link: function(scope){
+            scope.cookiesAccepted = $cookies.get("acceptCookies");
+            scope.acceptCookies = function(){
+                var expires = new Date();
+                expires.setFullYear(expires.getFullYear()+1);
+                $cookies.put("acceptCookies", "true", {expires: expires});
+                scope.cookiesAccepted = true;
+            }
+        }
+    }
+})
