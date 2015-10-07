@@ -251,7 +251,7 @@ nav {
   padding: 0 20px;
   .image {
     flex: 1;
-    padding: 120px 0;
+    padding: 160px 0;
     img {
       max-width: 180px;
       width: 100%;
@@ -264,7 +264,6 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     h1 {
       color: $blue-dark;
       text-transform: uppercase;
@@ -288,6 +287,7 @@ nav {
       color: $white;
       text-align: justify;
       line-height: 1.8em;
+      padding-bottom: 1em;
       a {
         font-weight: $regular;
         color: $blue-dark;
