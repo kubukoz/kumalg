@@ -116,14 +116,14 @@
     "name": "Grafika",
     "items": [
       {
-        "name": "Mars",
-        "thumbnail": "grafika/mars/thumb.jpg",
+        "name": "Galmed",
+        "thumbnail": "grafika/galmed/thumb.jpg",
         "content": [
-          "Ilustracja przedstawiająca planetę Mars.",
-          "Cinema 4D + Photoshop"
+          "Ilustracja przedstawiająca planetę Galmed.",
+          "xDDDDDDDDDDDDD BK"
         ],
         "images": [
-          "grafika/mars/full.jpg"
+          "grafika/galmed/full.png"
         ]
       },
       {
