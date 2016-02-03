@@ -1,17 +1,17 @@
 [
   {
-    "title": "Web Design",
-    "imgSrc": "images/oferta/web-design.svg",
-    "content": "Projekty stron www<br/>Banery internetowe"
+    "title": "Filmowanie",
+    "imgSrc": "images/oferta/filmowanie.svg",
+    "content": "Reklamy | Relacje z wydarzeń | Teledyski<br/>Filmy krótkometrażowe | Efekty specjalne"
   },
   {
     "title": "Grafika i animacja",
     "imgSrc": "images/oferta/grafika-i-animacja.svg",
-    "content": "Banery | Ulotki | Wizytówki | Loga<br/>Czołówki | Drobne animacje"
+    "content": "Materiały reklamowe | Logotypy<br/>Czołówki | Drobne animacje"
   },
   {
-    "title": "Filmowanie",
-    "imgSrc": "images/oferta/filmowanie.svg",
-    "content": "Reklamy | Relacje | Teledyski<br/>Filmy krótkometrażowe"
+    "title": "Web Design",
+    "imgSrc": "images/oferta/web-design.svg",
+    "content": "Projekty stron www<br/>Banery internetowe"
   }
 ]
