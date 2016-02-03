@@ -116,6 +116,26 @@
     "name": "Grafika",
     "items": [
       {
+        "name": "Indywidualny Trening Piłkarski",
+        "thumbnail": "grafika/itp/thumb.png",
+        "content": [
+          "Projekt logotypu przygotowany dla zduńskowolskiej szkółki piłkarskiej Indywidualny Trening Piłkarski."
+        ],
+        "images": [
+          "grafika/itp/full.png"
+        ]
+      },
+      {
+        "name": "Apteka Galmed",
+        "thumbnail": "grafika/galmed/thumb.png",
+        "content": [
+          "Projekt logotypu przygotowany dla zduńskowolskiej Apteki Galmed."
+        ],
+        "images": [
+          "grafika/galmed/full.png"
+        ]
+      },
+      {
         "name": "Mars",
         "thumbnail": "grafika/mars/thumb.jpg",
         "content": [
@@ -143,7 +163,7 @@
         "name": "Elektrum",
         "thumbnail": "grafika/elektrum/thumb.jpg",
         "content": [
-          "Projeky logotypu oraz roll up-u przygotowane dla firmy Elektrum z Łodzi."
+          "Projekt logotypu oraz roll up-u przygotowane dla firmy Elektrum z Łodzi."
         ],
         "images": [
           "grafika/elektrum/full1.png",
