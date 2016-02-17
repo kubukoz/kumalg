@@ -1,67 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1024px"
-	 height="1024px" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1024px" height="1024px" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
 <g id="Tlo">
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#141414" d="M0,0h1024v1024H0V0z"/>
+	<path fill="#141414" d="M0,0h1024v1024H0V0z"/>
 </g>
 <g id="Kolka">
+	<g>
+		<image overflow="visible" width="347" height="346" xlink:href="BC4DD0D6.png"  transform="matrix(1 0 0 1 672.5 79.4998)">
+		</image>
+	</g>
+	<g>
+		<image overflow="visible" width="1125" height="1125" xlink:href="BC4DD0DA.png"  transform="matrix(1 0 0 1 -292.5 -867.5002)">
+		</image>
+	</g>
+	<g>
+		<image overflow="visible" width="428" height="428" xlink:href="BC4DD0DD.png"  transform="matrix(1 0 0 1 45.5 271.4998)">
+		</image>
+	</g>
+	<g opacity="0.9" enable-background="new    ">
+		<image overflow="visible" width="904" height="904" xlink:href="BC4DD0DE.png"  transform="matrix(1 0 0 1 -292.5 446.4998)">
+		</image>
+	</g>
 	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="709.334" y1="252.5342" x2="982.9346" y2="252.5342" gradientTransform="matrix(0.9511 0.309 -0.309 0.9511 119.4498 -249.1097)">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="175.4951" y1="316.696" x2="1006.3994" y2="316.696" gradientTransform="matrix(0.9511 0.309 0.309 -0.9511 -51.378 754.3414)">
 		<stop  offset="0" style="stop-color:#0063A9"/>
 		<stop  offset="0.5075" style="stop-color:#0C85D6"/>
 		<stop  offset="1" style="stop-color:#43C3FF"/>
 	</linearGradient>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)" d="M888.406,122.43
-		c71.854,23.347,111.179,100.523,87.832,172.377c-23.348,71.855-100.524,111.179-172.379,87.832
-		c-71.854-23.348-111.178-100.523-87.831-172.379C739.375,138.406,816.552,99.082,888.406,122.43z"/>
-	
-		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-256" y1="-305.333" x2="796.2676" y2="-305.333" gradientTransform="matrix(-0.7071 -0.7071 0.7071 -0.7071 677.0495 -330.2244)">
-		<stop  offset="0" style="stop-color:#0063A9"/>
-		<stop  offset="0.5075" style="stop-color:#0C85D6"/>
-		<stop  offset="1" style="stop-color:#43C3FF"/>
-	</linearGradient>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_2_)" d="M-101.899,66.699
-		c-205.468-205.469-205.467-538.598,0-744.065s538.597-205.468,744.064,0c205.467,205.468,205.468,538.597,0,744.065
-		C436.698,272.166,103.568,272.166-101.899,66.699z"/>
-	
-		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="82.1343" y1="485.3335" x2="437.3335" y2="485.3335" gradientTransform="matrix(0.9511 0.309 -0.309 0.9511 162.6891 -56.5081)">
-		<stop  offset="0" style="stop-color:#0063A9"/>
-		<stop  offset="0.5075" style="stop-color:#0C85D6"/>
-		<stop  offset="1" style="stop-color:#43C3FF"/>
-	</linearGradient>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_3_)" d="M314.615,316.425
-		c93.285,30.311,144.336,130.504,114.026,223.79C398.331,633.5,298.137,684.551,204.853,654.24
-		C111.567,623.932,60.516,523.736,90.826,430.452C121.136,337.167,221.33,286.115,314.615,316.425z"/>
-	
-		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-255.9995" y1="898.666" x2="574.9341" y2="898.666" gradientTransform="matrix(0.9511 0.309 -0.309 0.9511 285.5084 -5.2952)">
-		<stop  offset="0" style="stop-color:#0063A9"/>
-		<stop  offset="0.5075" style="stop-color:#0C85D6"/>
-		<stop  offset="1" style="stop-color:#43C3FF"/>
-	</linearGradient>
-	<path opacity="0.9" fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_4_)" d="M287.853,503.533
-		c218.226,70.906,337.652,305.293,266.746,523.52c-70.905,218.225-305.293,337.65-523.519,266.744
-		c-218.225-70.905-337.651-305.292-266.746-523.518C-164.76,552.055,69.627,432.628,287.853,503.533z"/>
-	
-		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="193.0664" y1="635.7344" x2="1024" y2="635.7344" gradientTransform="matrix(0.9511 0.309 -0.309 0.9511 226.236 -156.9329)">
-		<stop  offset="0" style="stop-color:#0063A9"/>
-		<stop  offset="0.5075" style="stop-color:#0C85D6"/>
-		<stop  offset="1" style="stop-color:#43C3FF"/>
-	</linearGradient>
-	<path opacity="0.9" fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_5_)" d="M736.92,240.601
-		c218.225,70.906,337.651,305.293,266.745,523.519c-70.905,218.226-305.293,337.652-523.519,266.746
-		C261.921,959.96,142.494,725.572,213.4,507.347C284.306,289.121,518.694,169.695,736.92,240.601z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#141414" d="M1126.391,515.722c240.648,0,435.733,195.085,435.733,435.733
-		s-195.085,435.733-435.733,435.733s-435.733-195.085-435.733-435.733S885.742,515.722,1126.391,515.722z"/>
-	
-		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="481.6016" y1="1314.4004" x2="1533.8672" y2="1314.4004" gradientTransform="matrix(-0.7071 -0.7071 0.7071 -0.7071 790.8869 2956.3967)">
-		<stop  offset="0" style="stop-color:#0063A9"/>
-		<stop  offset="0.5075" style="stop-color:#0C85D6"/>
-		<stop  offset="1" style="stop-color:#43C3FF"/>
-	</linearGradient>
-	<path opacity="0.95" fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_6_)" d="M635.701,1686.434
-		c-205.467-205.468-205.467-538.597,0.001-744.064C841.17,736.9,1174.299,736.9,1379.766,942.368
-		c205.468,205.468,205.469,538.597,0,744.065C1174.298,1891.901,841.168,1891.9,635.701,1686.434z"/>
+	<path opacity="0.9" fill="url(#SVGID_1_)" enable-background="new    " d="M736.92,240.601
+		c218.226,70.905,337.651,305.293,266.745,523.519c-70.905,218.227-305.293,337.652-523.52,266.746
+		C261.921,959.961,142.494,725.572,213.4,507.347C284.306,289.121,518.694,169.695,736.92,240.601z"/>
+	<g>
+		<image overflow="visible" width="944" height="944" xlink:href="BC4DD0DC.png"  transform="matrix(1 0 0 1 654.5 479.4998)">
+		</image>
+	</g>
+	<g opacity="0.95" enable-background="new    ">
+		<image overflow="visible" width="1125" height="1126" xlink:href="BC4DD0DB.png"  transform="matrix(1 0 0 1 445.5 751.4998)">
+		</image>
+	</g>
 </g>
 </svg>
