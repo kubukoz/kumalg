@@ -330,6 +330,18 @@
     "name": "Filmy",
     "items": [
       {
+        "name": "HIT robi impezę!",
+        "thumbnail": "filmy/hit-robi-impreze/thumb.jpg",
+        "content": [
+          "30 sekundowy spot markizów HIT przygotowany na ogólnopolski konkurs organizowany przez MillionYou."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"259\" src=\"https://www.youtube.com/embed/ry8JXuCr1FY\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
+      },
+      {
         "name": "Tomorrowland 2015",
         "thumbnail": "filmy/tomorrowland-2015/thumb.jpg",
         "content": [
