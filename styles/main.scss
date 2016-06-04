@@ -1,3 +1,4 @@
+$white-trans: rgba(255, 255, 255, 0.7);
 $white: #fff;
 $white20p: #606060;
 $gray-some: #363636;
@@ -6,9 +7,13 @@ $gray: #232426;
 $blue-dark: #026bb5;
 $very-dark: #141414;
 $black: #000;
-$font-lato: "Lato", sans-serif;
+
+$font-roboto: "Roboto", sans-serif;
+
+$thin: 200;
 $light: 300;
 $regular: 400;
+$medium: 500;
 $bold: 700;
 
 @mixin buttonStyle {
@@ -16,12 +21,12 @@ $bold: 700;
   border: 2px solid $white20p;
   background: none;
   color: $white20p;
-  font-family: $font-lato;
+  font-family: $font-roboto;
   font-weight: $regular;
   display: inline-block;
   padding: 10px 20px 12px;
   margin: 10px 0;
-  border-radius: 3px;
+  border-radius: 6px;
   cursor: pointer;
   transition: .3s;
   &:hover {
@@ -49,9 +54,9 @@ $bold: 700;
 .heading {
   text-transform: uppercase;
   font-size: 1.875em;
-  color: $white;
+  color: $white-trans;
   text-align: center;
-  font-family: $font-lato;
+  font-family: $font-roboto;
   font-weight: $light;
   margin-top: 60px;
   &:after {
@@ -60,7 +65,7 @@ $bold: 700;
     content: '';
     width: 100%;
     height: 1px;
-    background: $white20p;
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
   }
 }
 
@@ -88,9 +93,9 @@ header {
       visibility: hidden;
     }
     svg {
+      max-width: 450px;
       fill: $white;
       width: 80vw;
-      max-width: 768px;
     }
   }
   h2 {
@@ -98,7 +103,7 @@ header {
     z-index: 2;
     text-align: center;
     color: $white;
-    font-family: $font-lato;
+    font-family: $font-roboto;
     font-size: 1.125em;
     font-style: italic;
     font-weight: $light;
@@ -121,19 +126,22 @@ nav {
   z-index: 9;
   left: 0;
   right: 0;
+  background: $very-dark;
   .nsz {
     overflow: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     padding: 0 20px;
     max-width: 1000px;
     svg {
+      display: block;
       width: 130px;
       fill: $white;
       transition: .2s;
       &:hover {
-        fill: #026bb5;
+        fill: $blue-dark;
       }
       visibility: hidden;
       opacity: 0;
@@ -167,7 +175,7 @@ nav {
         padding: 0 30px;
         color: inherit;
         text-transform: uppercase;
-        font-family: $font-lato;
+        font-family: $font-roboto;
         text-align: center;
         font-weight: $light;
         overflow: hidden;
@@ -241,14 +249,14 @@ nav {
       }
     }
   }
-  border-bottom: 1px solid $white20p;
+  box-shadow: 0 0 30px black;
 }
 
 #o-mnie {
   display: flex;
   justify-content: space-around;
   max-width: 1000px;
-  padding: 0 20px;
+  padding: 20px 20px 0;
   .image {
     flex: 1;
     padding: 160px 0;
@@ -268,12 +276,12 @@ nav {
       color: $blue-dark;
       text-transform: uppercase;
       font-weight: $light;
-      font-family: $font-lato;
+      font-family: $font-roboto;
       font-size: 1.875em;
       &:after {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
         width: 100%;
         height: 1px;
-        background: $white20p;
         display: block;
         content: '';
         margin-top: 24px;
@@ -281,10 +289,10 @@ nav {
       }
     }
     p {
-      font-family: $font-lato;
+      font-family: $font-roboto;
       font-weight: $light;
       font-size: 1em;
-      color: $white;
+      color: #A0A0A0;
       text-align: justify;
       line-height: 1.8em;
       padding-bottom: 1em;
@@ -370,22 +378,31 @@ nav {
           max-width: 210px;
           font-size: .875em;
           color: $white;
-          font-family: $font-lato;
+          font-family: $font-roboto;
           b {
             font-weight: $bold;
           }
-          &[contenteditable]:empty:before {
-            cursor: pointer;
-            display: block;
-            color: $white20p;
-            content: 'Opis osiągnięcia';
+          &.description {
+            font-weight: $light;
+            font-size: 1.1em;
+            &:after {
+              display: block;
+              width: 100%;
+              content: '';
+              margin: 10px auto 10px auto;
+              height: 1px;
+              background: linear-gradient(-90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+            }
           }
         }
         .image {
           margin-bottom: 10px;
-          width: 60px;
-          height: 60px;
           display: inline-flex;
+          justify-content: center;
+          img {
+            width: 60px;
+            height: 60px;
+          }
         }
       }
       @media (max-width: 760px) {
@@ -411,7 +428,7 @@ nav {
       text-align: center;
       h2 {
         color: $blue-dark;
-        font-family: $font-lato;
+        font-family: $font-roboto;
         font-size: 1.5em;
         text-transform: uppercase;
         margin-top: 28px;
@@ -419,8 +436,8 @@ nav {
       }
       p {
         text-transform: uppercase;
-        color: $white;
-        font-family: $font-lato;
+        color: #A0A0A0;
+        font-family: $font-roboto;
         font-size: .875em;
         line-height: 1.6em;
       }
@@ -468,7 +485,7 @@ nav {
               content: '';
             }
             color: $white;
-            font-family: $font-lato;
+            font-family: $font-roboto;
             font-weight: $light;
             line-height: 1.8em;
             text-align: justify;
@@ -476,7 +493,7 @@ nav {
           }
           h2 {
             font-size: 1.5em;
-            font-family: $font-lato;
+            font-family: $font-roboto;
             color: $blue-dark;
             font-weight: $bold;
 
@@ -489,7 +506,7 @@ nav {
             margin-top: 73px;
             font-size: 1.5em;
             color: $blue-dark;
-            font-family: $font-lato;
+            font-family: $font-roboto;
             font-weight: $bold;
           }
           ul {
@@ -500,7 +517,7 @@ nav {
               color: $white;
               font-size: .875em;
               text-transform: uppercase;
-              font-family: $font-lato;
+              font-family: $font-roboto;
               margin-top: 10px;
               span {
                 flex: 1 0;
@@ -567,7 +584,7 @@ nav {
 }
 
 #klienci {
-  background: $gray;
+  background: #1a1a1a;
   overflow: auto;
   .nsz {
     display: flex;
@@ -620,7 +637,7 @@ nav {
           transition: .2s;
           margin: -1px;
           font-size: 1em;
-          font-family: $font-lato;
+          font-family: $font-roboto;
           text-transform: uppercase;
           color: $gray-some;
           text-align: center;
@@ -741,7 +758,7 @@ nav {
             background: $blue-dark;
             p {
               color: $white;
-              font-family: $font-lato;
+              font-family: $font-roboto;
             }
             img {
               width: 60px;
@@ -820,7 +837,7 @@ nav {
         flex: 3 100%;
         font-size: 2.25em;
         margin-bottom: 28px;
-        font-family: $font-lato;
+        font-family: $font-roboto;
         color: $blue-dark;
         font-weight: $light;
         text-align: center;
@@ -830,8 +847,8 @@ nav {
         display: flex;
         flex-direction: column;
         p {
-          color: $white;
-          font-family: $font-lato;
+          color: #A0A0A0;
+          font-family: $font-roboto;
           font-weight: $light;
           text-align: right;
           line-height: 1.6em;
@@ -845,9 +862,9 @@ nav {
           b {
             display: block;
             font-size: 1.5em;
-            font-family: $font-lato;
+            font-family: $font-roboto;
             font-weight: $light;
-            color: $white;
+            color: #A0A0A0;
           }
           a {
             @include buttonStyle;
@@ -896,7 +913,7 @@ nav {
           h2 {
             font-size: 1.25em;
             margin-bottom: 18px;
-            font-family: $font-lato;
+            font-family: $font-roboto;
             color: $white;
             text-align: right;
             font-weight: $light;
@@ -937,9 +954,40 @@ nav {
 }
 
 #kontakt {
-  border-top: 1px solid $white20p;
   padding: 20px 0;
   background: #141414;
+
+  &:before {
+    max-width: 960px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    content: '';
+    height: 1px;
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+  }
+
+  h1 {
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+    font-family: $font-roboto;
+    font-size: 1.875em;
+    font-weight: $thin;
+    text-align: center;
+    color: #A0A0A0;
+    span {
+      display: block;
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+
+    b {
+      font-weight: $regular;
+      color: #026bb5;
+    }
+  }
   .nsz {
     max-width: 800px;
     padding: 0 10px;
@@ -1014,23 +1062,16 @@ nav {
     padding: 30px 0;
     flex: 1;
     li {
-      color: $white;
-      font-family: $font-lato;
-      text-transform: uppercase;
+      color: #A2A2A2;
+      font-family: $font-roboto;
       font-weight: $light;
       font-size: .75em;
       &.title {
+        text-transform: uppercase;
         color: $blue-dark;
-        font-weight: $bold;
-        font-size: .875em;
-        &:after {
-          display: block;
-          content: '';
-          width: 60%;
-          height: 1px;
-          background: $white20p;
-          margin: 10px 0;
-        }
+        font-weight: $medium;
+        font-size: 1.1em;
+        margin-bottom: 10px;
       }
       &:not(.title):not(:last-of-type) {
         margin-bottom: 3px;
@@ -1098,7 +1139,7 @@ footer {
       font-weight: $light;
       font-size: .875em;
       color: #6e6e6e;
-      font-family: $font-lato;
+      font-family: $font-roboto;
       b {
         text-transform: uppercase;
         font-weight: $bold;
@@ -1113,7 +1154,7 @@ footer {
     i {
       font-size: .75em;
       color: #6e6e6e;
-      font-family: $font-lato;
+      font-family: $font-roboto;
       &:first-of-type {
         margin-bottom: 2px;
       }
@@ -1141,47 +1182,7 @@ footer {
   }
 }
 
-.login-page {
-  background: $blue-dark;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  form {
-    height: 100%;
-    font-family: $font-lato;
-    font-size: 1.125em;
-    font-weight: $light;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: $white;
-    input {
-      margin-bottom: 20px;
-      border: 2px solid $white;
-      font-size: 1.125em;
-      padding: 12px 20px;
-      color: $white;
-      background: none;
-    }
-    button {
-      padding: 12px 20px;
-      color: $white;
-      background: none;
-      border: 2px solid $white;
-      transition: .2s;
-      font-size: 1.125em;
-      &:hover {
-        background: $white;
-        color: $blue-dark;
-      }
-    }
-  }
-}
-
-#cookie-consent{
+#cookie-consent {
   position: fixed;
   z-index: 9;
   left: 0;
@@ -1190,18 +1191,18 @@ footer {
   transform: translateY(100%);
   transition: .2s;
   background: $very-dark;
-  &.visible{
+  &.visible {
     transform: translateY(0);
   }
-  .nsz{
+  .nsz {
     text-align: center;
-    font-family: $font-lato;
+    font-family: $font-roboto;
     padding: 10px 20px;
     max-width: 1000px;
     font-size: .875em;
     color: $white;
     font-weight: $light;
-    a{
+    a {
       cursor: pointer;
       transition: .2s;
       font-weight: $regular;

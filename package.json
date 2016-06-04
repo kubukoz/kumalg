@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.html",
   "dependencies": {
-    "gulp": "^3.8.11",
-    "gulp-autoprefixer": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
     "gulp-livereload": "^3.8.0",
-    "gulp-minify-css": "^1.0.0",
-    "gulp-ng-annotate": "^0.5.2",
+    "gulp-clean-css": "^2.0.9",
+    "gulp-ng-annotate": "^2.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^1.3.3",
-    "gulp-uglify": "^1.2.0"
+    "gulp-sass": "^2.3.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -19,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kubukoz/kratex"
+    "url": "https://github.com/kubukoz/kumalg"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kubukoz/kratex/issues"
+    "url": "https://github.com/kubukoz/kumalg/issues"
   },
-  "homepage": "https://github.com/kubukoz/kratex"
+  "homepage": "https://github.com/kubukoz/kumalg"
 }

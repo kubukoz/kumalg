@@ -1,113 +1,302 @@
 [
   {
-    "name": "Webdesign",
+    "name": "Filmy",
     "items": [
       {
-        "name": "Kumalg Films",
-        "thumbnail": "webdesign/kumalg/thumb.jpg",
+        "name": "HIT robi impezę!",
+        "thumbnail": "filmy/hit-robi-impreze/thumb.jpg",
         "content": [
-          "Projekt strony www na której właśnie się znajdujesz."
+          "30 sekundowy spot markizów HIT przygotowany na ogólnopolski konkurs organizowany przez MillionYou."
         ],
-        "online": "http://kumalg.pl",
-        "macbook": true,
-        "screenshots": [
-          "webdesign/kumalg/full.png"
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"259\" src=\"https://www.youtube.com/embed/ry8JXuCr1FY\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
-        "name": "Kratex 4x4",
-        "thumbnail": "webdesign/kratex-4x4/thumb.jpg",
+        "name": "Tomorrowland 2015",
+        "thumbnail": "filmy/tomorrowland-2015/thumb.jpg",
         "content": [
-          "Projekt strony www przygotowany dla firmy Kratex 4x4 ze Zduńskiej Woli."
+          "Film promujący festiwal Tomorrowland w Belgii przygotowany na konkurs."
         ],
-        "online": "http://kratex4x4.pl",
-        "macbook": true,
-        "screenshots": [
-          "webdesign/kratex-4x4/full1.png",
-          "webdesign/kratex-4x4/full2.png",
-          "webdesign/kratex-4x4/full3.png",
-          "webdesign/kratex-4x4/full4.png"
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/SzSusThjdT4\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
-        "name": "Standard Express",
-        "thumbnail": "webdesign/standard-express/thumb.jpg",
+        "name": "Mantica",
+        "thumbnail": "filmy/mantica/thumb.jpg",
         "content": [
-          "Projekt strony www przygotowany dla zespołu Standard Express ze Zduńskiej Woli."
+          "Filmy przygotowane dla firmy Mantica ze Zduńskiej Woli prezentujące działanie oraz zalety systemu Mantica KD."
         ],
-        "macbook": true,
-        "screenshots": [
-          "webdesign/standard-express/full.png"
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/125657024\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Dzień z Mantica"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/125657688\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Dlaczego Mantica - Wagary"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/129544192\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Dlaczego Mantica - Nieproszona osoba"
+          }
         ]
       },
       {
-        "name": "OSK Majchrzak",
-        "thumbnail": "webdesign/osk-majchrzak/thumb.jpg",
+        "name": "Glass Future",
+        "thumbnail": "filmy/glass-future/thumb.jpg",
         "content": [
-          "Projekt strony www przygotowany dla ośrodka szkoleniowego OSK Majchrzak ze Zduńskiej Woli."
+          "Film pt. \"Glass Future\" przygotowany na ogólnopolski konkurs \"Kamera! Akcja! Nowoczesna edukacja!\" organizowanego przez MillionYou.",
+          "Film zajął III miejsce."
         ],
-        "macbook": true,
-        "screenshots": [
-          "webdesign/osk-majchrzak/full.png"
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"259\" src=\"https://player.vimeo.com/video/107474154\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
-        "name": "Lucky Language",
-        "thumbnail": "webdesign/lucky-language/thumb.jpg",
+        "name": "Porwanie",
+        "thumbnail": "filmy/porwanie/thumb.jpg",
         "content": [
-          "Projekt strony www przygotowany dla firmy Lucky Language z Opola."
+          "Film promujący I Liceum Ogólnokształcące w Zduńskiej Woli na rok 2014 pod tytułem \"Porwanie\"."
         ],
-        "macbook": true,
-        "screenshots": [
-          "webdesign/lucky-language/full1.png",
-          "webdesign/lucky-language/full2.png",
-          "webdesign/lucky-language/full3.png"
-        ]
-      },
-      {
-        "name": "Roman Baran",
-        "thumbnail": "webdesign/roman-baran/thumb.jpg",
-        "content": [
-          "Projekt strony www przygotowany dla kierowcy wyścigowego - Romana Barana."
-        ],
-        "macbook": true,
-        "screenshots": [
-          "webdesign/roman-baran/full.png"
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/hQToZ1RD0Ao\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/Ctkn9ZTZLuE\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Making of"
+          }
         ]
       },
       {
         "name": "I Liceum Ogólnokształcące w Zduńskiej Woli",
-        "thumbnail": "webdesign/i-lo-zdw/thumb.jpg",
+        "thumbnail": "filmy/i-lo-zdw/thumb.jpg",
         "content": [
-          "Projekt strony www przygotowany dla I Liceum Ogólnokształcącego im. Kazimierza Wielkiego w Zduńskiej Woli."
+          "Film promujący I Liceum Ogólnokształcące w Zduńskiej Woli na rok 2013."
         ],
-        "online": "http://pierwszelozdwola.ksiezyc.pl",
-        "macbook": true,
-        "screenshots": [
-          "webdesign/i-lo-zdw/full.png"
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/EE6WqTlmAp8\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       },
       {
-        "name": "GSMP Shop",
-        "thumbnail": "webdesign/gsmp/thumb.jpg",
+        "name": "Palący problem",
+        "thumbnail": "filmy/palacy-problem/thumb.jpg",
         "content": [
-          "Projekt strony www przygotowany dla internetowego sklepu GSMP."
+          "Film pt. \"Palący problem\" przygotowany na ogólnopolski konkurs \"Kiedy warto dać ognia?\" organizowanego przez BIC oraz MillionYou.",
+          "Film zdobył nagrodę publiczności."
         ],
-        "macbook": true,
-        "screenshots": [
-          "webdesign/gsmp/full1.png",
-          "webdesign/gsmp/full2.png"
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/zWaFM3lL_hk\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/ijkhP_TybX0\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "VFX Breakdown"
+          }
         ]
       },
       {
-        "name": "TOTO Autoserwis",
-        "thumbnail": "webdesign/toto/thumb.jpg",
+        "name": "Monument Valley",
+        "thumbnail": "filmy/monument-valley/thumb.jpg",
         "content": [
-          "Projekt strony www przygotowany dla firmy TOTO Autoserwis."
+          "Krótkie filmy z serii \"Monument Valley\" wykonane w technice animacji poklatkowej. Pochodza z lat 2009 oraz 2011.",
+          "Film Monument Valley został wyświetlony na festiwalu \"Po Godzinach\" organizowanym przez \"OFF Plus Camera\" natomiast Monument Valley 2 zajął I miejsce w międzyszkolnym konkursie \"Mam talent\" podczas Katarzynek w Plastyku."
         ],
-        "macbook": true,
-        "screenshots": [
-          "webdesign/toto/full.png"
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/OqOZ7CmDnfw\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Monument Valley 2"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/KYpTINQwL8c\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "Monument Valley"
+          }
+        ]
+      },
+      {
+        "name": "WOŚP",
+        "thumbnail": "filmy/wosp/thumb.jpg",
+        "content": [
+          "Relacje z Wielkiej Orkiestry Świątecznej Pomocy w Zduńskiej Woli."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/XgyhvJCWYLQ\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "WOŚP 2015"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/Mj8fpGx375s\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "WOŚP 2014"
+          }
+        ]
+      },
+      {
+        "name": "Piaski - short test",
+        "thumbnail": "filmy/piaski/thumb.jpg",
+        "content": [
+          "Krótki test umiejętności matte-painting."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"259\" src=\"https://player.vimeo.com/video/74933730\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
+      },
+      {
+        "name": "Cykliczne oszczędzanie",
+        "thumbnail": "filmy/cykliczne-oszczedzanie/thumb.jpg",
+        "content": [
+          "Film pt. \"Cykliczne oszczędzanie\" przygotowany na ogólnopolski konkurs \"Energooszczędzanie na ekranie\" organizowanego przez firmę Tauron.",
+          "Film zajął VII miejsce."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"260\" src=\"https://www.youtube.com/embed/GTI4o_TLLho\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
+      },
+      {
+        "name": "JANE - To co ważne, nie zapominaj",
+        "thumbnail": "filmy/jane-to-co-wazne/thumb.jpg",
+        "content": [
+          "Klip wykonany do utworu JANE - \"To co ważne, nie zapominaj\" nakręcony w łódzkiej Manufakturze."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"259\" src=\"https://www.youtube.com/embed/2HO3A9483jQ\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
+      },
+      {
+        "name": "OWFP",
+        "thumbnail": "filmy/owfp/thumb.jpg",
+        "content": [
+          "Relacje z Otwartych Warsztatów Fotografii Plenerowej organizowanych na terenie Zduńskiej Woli i okolicach. Organizatorami warsztatów są: Maciej Stawski oraz Tomasz Bąk"
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/ouP5zeAlU2o\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "OWFP Karsznice"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/4jNf1xslIJ0\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "OWFP Retrospekcja"
+          },
+          {
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/4hGYhQsRo_I\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
+            "title": "OWFP Sieradz"
+          }
+        ]
+      },
+      {
+        "name": "Turniej FIFA",
+        "thumbnail": "filmy/turniej-fifa/thumb.jpg",
+        "content": [
+          "Relacja z II Zdunskowskiego Turnieju FIFA 2014."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/hYkdJfGIuJU\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Animacja",
+    "items": [
+      {
+        "name": "Kumalg Films",
+        "thumbnail": "animacja/kumalg/thumb.jpg",
+        "content": [
+          "Intro Kumalg Films."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"259\" src=\"https://player.vimeo.com/video/117601666\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
+      },
+      {
+        "name": "Ratusz Zduńska Wola",
+        "thumbnail": "animacja/ratusz/thumb.jpg",
+        "content": [
+          "Intro przygotowane dla Ratusz Zduńska Wola."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/108506024\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
+      },
+      {
+        "name": "CaseWeek 2014",
+        "thumbnail": "animacja/caseweek/thumb.jpg",
+        "content": [
+          "Intro przygotowane na potrzeby CaseWeek (Edycja 2014) - największego cyklu warsztatów inżynierskich w Polsce."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/107478431\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
+      },
+      {
+        "name": "ZW Media",
+        "thumbnail": "animacja/zw-media/thumb.jpg",
+        "content": [
+          "Ramówka przygotowana dla zduńskowolskiej telewizji ZW Media."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/76092287\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
+      },
+      {
+        "name": "Skanska",
+        "thumbnail": "animacja/skanska/thumb.jpg",
+        "content": [
+          "Intro przygotowane dla firmy Skanska na potrzeby budynku Green Corner."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/5fNuvZT8QzI\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
+      },
+      {
+        "name": "Rossmann",
+        "thumbnail": "animacja/rossmann/thumb.jpg",
+        "content": [
+          "Intro przygotowane dla firmy Rossmann na potrzeby ROSSnews."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/SJCfxCk8H24\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
+      },
+      {
+        "name": "GSMP",
+        "thumbnail": "animacja/gsmp/thumb.jpg",
+        "content": [
+          "Intro przygotowane na potrzeby internetowych relacji z zawodów Górskich Samochodowych Mistrzostw Polski."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/ulPZPhkeb3Y\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
         ]
       }
     ]
@@ -237,304 +426,117 @@
       }
     ]
   },
+
   {
-    "name": "Animacja",
+    "name": "Webdesign",
     "items": [
       {
         "name": "Kumalg Films",
-        "thumbnail": "animacja/kumalg/thumb.jpg",
+        "thumbnail": "webdesign/kumalg/thumb.jpg",
         "content": [
-          "Intro Kumalg Films."
+          "Projekt strony www na której właśnie się znajdujesz."
         ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"259\" src=\"https://player.vimeo.com/video/117601666\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
+        "online": "http://kumalg.pl",
+        "macbook": true,
+        "screenshots": [
+          "webdesign/kumalg/full.png"
         ]
       },
       {
-        "name": "Ratusz Zduńska Wola",
-        "thumbnail": "animacja/ratusz/thumb.jpg",
+        "name": "Kratex 4x4",
+        "thumbnail": "webdesign/kratex-4x4/thumb.jpg",
         "content": [
-          "Intro przygotowane dla Ratusz Zduńska Wola."
+          "Projekt strony www przygotowany dla firmy Kratex 4x4 ze Zduńskiej Woli."
         ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/108506024\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
+        "online": "http://kratex4x4.pl",
+        "macbook": true,
+        "screenshots": [
+          "webdesign/kratex-4x4/full1.png",
+          "webdesign/kratex-4x4/full2.png",
+          "webdesign/kratex-4x4/full3.png",
+          "webdesign/kratex-4x4/full4.png"
         ]
       },
       {
-        "name": "CaseWeek 2014",
-        "thumbnail": "animacja/caseweek/thumb.jpg",
+        "name": "Standard Express",
+        "thumbnail": "webdesign/standard-express/thumb.jpg",
         "content": [
-          "Intro przygotowane na potrzeby CaseWeek (Edycja 2014) - największego cyklu warsztatów inżynierskich w Polsce."
+          "Projekt strony www przygotowany dla zespołu Standard Express ze Zduńskiej Woli."
         ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/107478431\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
+        "online": "http://standardexpress.pl",
+        "macbook": true,
+        "screenshots": [
+          "webdesign/standard-express/full.png"
         ]
       },
       {
-        "name": "ZW Media",
-        "thumbnail": "animacja/zw-media/thumb.jpg",
+        "name": "OSK Majchrzak",
+        "thumbnail": "webdesign/osk-majchrzak/thumb.jpg",
         "content": [
-          "Ramówka przygotowana dla zduńskowolskiej telewizji ZW Media."
+          "Projekt strony www przygotowany dla ośrodka szkoleniowego OSK Majchrzak ze Zduńskiej Woli."
         ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/76092287\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
+        "macbook": true,
+        "screenshots": [
+          "webdesign/osk-majchrzak/full.png"
         ]
       },
       {
-        "name": "Skanska",
-        "thumbnail": "animacja/skanska/thumb.jpg",
+        "name": "Lucky Language",
+        "thumbnail": "webdesign/lucky-language/thumb.jpg",
         "content": [
-          "Intro przygotowane dla firmy Skanska na potrzeby budynku Green Corner."
+          "Projekt strony www przygotowany dla firmy Lucky Language z Opola."
         ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/5fNuvZT8QzI\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
+        "macbook": true,
+        "screenshots": [
+          "webdesign/lucky-language/full1.png",
+          "webdesign/lucky-language/full2.png",
+          "webdesign/lucky-language/full3.png"
         ]
       },
       {
-        "name": "Rossmann",
-        "thumbnail": "animacja/rossmann/thumb.jpg",
+        "name": "Roman Baran",
+        "thumbnail": "webdesign/roman-baran/thumb.jpg",
         "content": [
-          "Intro przygotowane dla firmy Rossmann na potrzeby ROSSnews."
+          "Projekt strony www przygotowany dla kierowcy wyścigowego - Romana Barana."
         ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/SJCfxCk8H24\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
-        ]
-      },
-      {
-        "name": "GSMP",
-        "thumbnail": "animacja/gsmp/thumb.jpg",
-        "content": [
-          "Intro przygotowane na potrzeby internetowych relacji z zawodów Górskich Samochodowych Mistrzostw Polski."
-        ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/ulPZPhkeb3Y\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Filmy",
-    "items": [
-      {
-        "name": "HIT robi impezę!",
-        "thumbnail": "filmy/hit-robi-impreze/thumb.jpg",
-        "content": [
-          "30 sekundowy spot markizów HIT przygotowany na ogólnopolski konkurs organizowany przez MillionYou."
-        ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"259\" src=\"https://www.youtube.com/embed/ry8JXuCr1FY\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
-        ]
-      },
-      {
-        "name": "Tomorrowland 2015",
-        "thumbnail": "filmy/tomorrowland-2015/thumb.jpg",
-        "content": [
-          "Film promujący festiwal Tomorrowland w Belgii przygotowany na konkurs."
-        ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/SzSusThjdT4\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
-        ]
-      },
-      {
-        "name": "Mantica",
-        "thumbnail": "filmy/mantica/thumb.jpg",
-        "content": [
-          "Filmy przygotowane dla firmy Mantica ze Zduńskiej Woli prezentujące działanie oraz zalety systemu Mantica KD."
-        ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/125657024\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
-            "title": "Dzień z Mantica"
-          },
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/125657688\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
-            "title": "Dlaczego Mantica - Wagary"
-          },
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/129544192\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
-            "title": "Dlaczego Mantica - Nieproszona osoba"
-          }
-        ]
-      },
-      {
-        "name": "Glass Future",
-        "thumbnail": "filmy/glass-future/thumb.jpg",
-        "content": [
-          "Film pt. \"Glass Future\" przygotowany na ogólnopolski konkurs \"Kamera! Akcja! Nowoczesna edukacja!\" organizowanego przez MillionYou.",
-          "Film zajął III miejsce."
-        ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"259\" src=\"https://player.vimeo.com/video/107474154\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
-        ]
-      },
-      {
-        "name": "Porwanie",
-        "thumbnail": "filmy/porwanie/thumb.jpg",
-        "content": [
-          "Film promujący I Liceum Ogólnokształcące w Zduńskiej Woli na rok 2014 pod tytułem \"Porwanie\"."
-        ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/hQToZ1RD0Ao\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          },
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/Ctkn9ZTZLuE\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
-            "title": "Making of"
-          }
+        "macbook": true,
+        "screenshots": [
+          "webdesign/roman-baran/full.png"
         ]
       },
       {
         "name": "I Liceum Ogólnokształcące w Zduńskiej Woli",
-        "thumbnail": "filmy/i-lo-zdw/thumb.jpg",
+        "thumbnail": "webdesign/i-lo-zdw/thumb.jpg",
         "content": [
-          "Film promujący I Liceum Ogólnokształcące w Zduńskiej Woli na rok 2013."
+          "Projekt strony www przygotowany dla I Liceum Ogólnokształcącego im. Kazimierza Wielkiego w Zduńskiej Woli."
         ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/EE6WqTlmAp8\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
+        "online": "http://pierwszelozdwola.ksiezyc.pl",
+        "macbook": true,
+        "screenshots": [
+          "webdesign/i-lo-zdw/full.png"
         ]
       },
       {
-        "name": "Palący problem",
-        "thumbnail": "filmy/palacy-problem/thumb.jpg",
+        "name": "GSMP Shop",
+        "thumbnail": "webdesign/gsmp/thumb.jpg",
         "content": [
-          "Film pt. \"Palący problem\" przygotowany na ogólnopolski konkurs \"Kiedy warto dać ognia?\" organizowanego przez BIC oraz MillionYou.",
-          "Film zdobył nagrodę publiczności."
+          "Projekt strony www przygotowany dla internetowego sklepu GSMP."
         ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/zWaFM3lL_hk\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          },
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/ijkhP_TybX0\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
-            "title": "VFX Breakdown"
-          }
+        "macbook": true,
+        "screenshots": [
+          "webdesign/gsmp/full1.png",
+          "webdesign/gsmp/full2.png"
         ]
       },
       {
-        "name": "Monument Valley",
-        "thumbnail": "filmy/monument-valley/thumb.jpg",
+        "name": "TOTO Autoserwis",
+        "thumbnail": "webdesign/toto/thumb.jpg",
         "content": [
-          "Krótkie filmy z serii \"Monument Valley\" wykonane w technice animacji poklatkowej. Pochodza z lat 2009 oraz 2011.", 
-          "Film Monument Valley został wyświetlony na festiwalu \"Po Godzinach\" organizowanym przez \"OFF Plus Camera\" natomiast Monument Valley 2 zajął I miejsce w międzyszkolnym konkursie \"Mam talent\" podczas Katarzynek w Plastyku."
+          "Projekt strony www przygotowany dla firmy TOTO Autoserwis."
         ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/OqOZ7CmDnfw\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
-            "title": "Monument Valley 2"
-          },
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/KYpTINQwL8c\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
-            "title": "Monument Valley"
-          }
-        ]
-      },
-      {
-        "name": "WOŚP",
-        "thumbnail": "filmy/wosp/thumb.jpg",
-        "content": [
-          "Relacje z Wielkiej Orkiestry Świątecznej Pomocy w Zduńskiej Woli."
-        ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/XgyhvJCWYLQ\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
-            "title": "WOŚP 2015"
-          },
-          {
-            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/Mj8fpGx375s\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
-            "title": "WOŚP 2014"
-          }
-        ]
-      },
-      {
-        "name": "Piaski - short test",
-        "thumbnail": "filmy/piaski/thumb.jpg",
-        "content": [
-          "Krótki test umiejętności matte-painting."
-        ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"259\" src=\"https://player.vimeo.com/video/74933730\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
-        ]
-      },
-      {
-        "name": "Cykliczne oszczędzanie",
-        "thumbnail": "filmy/cykliczne-oszczedzanie/thumb.jpg",
-        "content": [
-          "Film pt. \"Cykliczne oszczędzanie\" przygotowany na ogólnopolski konkurs \"Energooszczędzanie na ekranie\" organizowanego przez firmę Tauron.", 
-          "Film zajął VII miejsce."
-        ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"260\" src=\"https://www.youtube.com/embed/GTI4o_TLLho\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
-        ]
-      },
-      {
-        "name": "JANE - To co ważne, nie zapominaj",
-        "thumbnail": "filmy/jane-to-co-wazne/thumb.jpg",
-        "content": [
-          "Klip wykonany do utworu JANE - \"To co ważne, nie zapominaj\" nakręcony w łódzkiej Manufakturze."
-        ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"259\" src=\"https://www.youtube.com/embed/2HO3A9483jQ\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
-        ]
-      },
-      {
-        "name": "OWFP",
-        "thumbnail": "filmy/owfp/thumb.jpg",
-        "content": [
-          "Relacje z Otwartych Warsztatów Fotografii Plenerowej organizowanych na terenie Zduńskiej Woli i okolicach. Organizatorami warsztatów są: Maciej Stawski oraz Tomasz Bąk"
-        ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/ouP5zeAlU2o\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
-            "title": "OWFP Karsznice"
-          },
-          {
-            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/4jNf1xslIJ0\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
-            "title": "OWFP Retrospekcja"
-          },
-          {
-            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/4hGYhQsRo_I\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>",
-            "title": "OWFP Sieradz"
-          }
-        ]
-      },
-      {
-        "name": "Turniej FIFA",
-        "thumbnail": "filmy/turniej-fifa/thumb.jpg",
-        "content": [
-          "Relacja z II Zdunskowskiego Turnieju FIFA 2014."
-        ],
-        "vids": [
-          {
-            "code": "<iframe width=\"610\" height=\"255\" src=\"https://www.youtube.com/embed/hYkdJfGIuJU\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
-          }
+        "macbook": true,
+        "screenshots": [
+          "webdesign/toto/full.png"
         ]
       }
     ]

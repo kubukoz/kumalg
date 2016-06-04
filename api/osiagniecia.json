@@ -1,26 +1,38 @@
 [
   {
-    "content": "Wyświetlenie filmu <b>Monument Valley</b> na festiwalu \"Po Godzinach\" organizowanym przez \"OFF Plus Camera\"",
-    "imgUrl": "images/osiagniecia/osiagniecia-kamera.svg"
-  },
-  {
-    "content": "I miejsce w międzyszkolnym konkursie \"Mam talent\" organizowanym podczas Katarzynek w Plastyku dla filmu <b>Monument Valey 2</b>",
+    "title": "Glass Future",
+    "description": "III miejsce",
+    "content": "Ogólnopolski konkurs \"Kamera! Akcja! Nowoczesna edukacja!\"",
     "imgUrl": "images/osiagniecia/osiagniecia-puchar.svg"
   },
   {
-    "content": "III miejsce w ogólnopolskim konkursie \"Tesco dla szkół - Ekorewolucja\" dla filmu <b>PG2 EkoMOCNI - Ekorewolucja</b>",
-    "imgUrl": "images/osiagniecia/osiagniecia-puchar.svg"
-  },
-  {
-    "content": "III miejsce w ogólnopolskim konkursie \"Kamera! Akcja! Nowoczesna edukacja!\" dla filmu <b>Glass Future</b>",
-    "imgUrl": "images/osiagniecia/osiagniecia-puchar.svg"
-  },
-  {
-    "content": "VII miejsce w ogólnopolskim konkursie \"Energooszczędzanie na ekranie\" dla filmu <b>Cykliczne oszczędzanie</b>",
+    "title": "Cykliczne oszczędzanie",
+    "description": "VII miejsce",
+    "content": "Ogólnopolski konkurs \"Energooszczędzanie na ekranie\"",
     "imgUrl": "images/osiagniecia/osiagniecia-gwiazdka.svg"
   },
   {
-    "content": "Nagroda publiczności w ogólnopolskim konkursie \"Kiedy warto dać ognia\" dla filmu <b>Palący problem</b>",
+    "title": "Palący problem",
+    "description": "Nagroda publiczności",
+    "content": "Ogólnopolski konkurs \"Kiedy warto dać ognia\"",
+    "imgUrl": "images/osiagniecia/osiagniecia-puchar.svg"
+  },
+  {
+    "title": "Monument Valley",
+    "description": "Wyświetlenie filmu",
+    "content": "Festiwal \"Po Godzinach\" organizowany przez \"OFF Plus Camera\"",
+    "imgUrl": "images/osiagniecia/osiagniecia-kamera.svg"
+  },
+  {
+    "title": "Monument Valley 2",
+    "description": "I miejsce",
+    "content": "Międzyszkolny konkurs \"Mam talent\" organizowany podczas Katarzynek w Plastyku",
+    "imgUrl": "images/osiagniecia/osiagniecia-puchar.svg"
+  },
+  {
+    "title": "PG2 EkoMOCNI - Ekorewolucja",
+    "description": "III miejsce",
+    "content": "Ogólnopolski konkurs \"Tesco dla szkół - Ekorewolucja\"",
     "imgUrl": "images/osiagniecia/osiagniecia-puchar.svg"
   }
 ]

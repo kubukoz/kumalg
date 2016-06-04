@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html ng-app="kumalg">
 <head>
     <meta charset="UTF-8"/>
     <base href="/"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>Kumalg Films</title>
+    <title>Kumalg Films - Filmowanie &amp; Grafika | Wrocław, Łódź</title>
     <!--    __ __                                __
            / //_/  __  __   ____ ___   ____ _   / /   ____ _
           / ,<    / / / /  / __ `__ \ / __ `/  / /   / __ `/
@@ -38,8 +38,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
     <meta name="description"
           content="Mieszkam w Zduńskiej Woli. Interesuję się grafiką, animacją i filmowaniem. Tym ostatnim pasjonuję się od zawsze, a grafiką i animacją od 5 lat. W wolnych chwilach lubię spoglądać w rozgwieżdżone niebo, zachwycać się pięknem kosmosu i słuchać elektro."/>
-    <meta property="og:title" content="Kumalg Films"/>
-    <meta property="og:site_name" content="Kumalg Films"/>
+    <meta property="og:title" content="Kumalg Films - Filmowanie &amp; Grafika | Wrocław, Łódź"/>
+    <meta property="og:site_name" content="Kumalg Films - Filmowanie &amp; Grafika | Wrocław, Łódź"/>
     <meta property="og:image" content="http://kumalg.pl/images/og_image.png">
     <meta name="keywords" content="golec, kamil, kumalg, films, kumalgfilms"/>
     <script>
@@ -115,12 +115,10 @@
 		c1.726,0,3.437-0.057,5.136-0.156l-5.204-59.15C752.16,197.313,745.393,194.196,740.556,189.199z"/>
 </g>
 </svg>
-            <h2>Filmy i nie tylko</h2>
         </section>
-        <nav scrollspy-listen="o-mnie|osiagniecia|oferta|klienci-o-mnie|klienci|portfolio|kontakt|uslugi|footer"
-             kz-scroll>
+        <nav scrollspy-listen="o-mnie|osiagniecia|oferta|klienci-o-mnie|klienci|portfolio|kontakt|uslugi|footer">
             <div class="nsz">
-                <a href="#header" du-smooth-scroll offset="0">
+                <a class="logo" href="#header" du-smooth-scroll offset="0">
                     <svg xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
 	 viewBox="146.478 81.386 699.17 177.386"
 	 enable-background="new 146.478 81.386 699.17 177.386" xml:space="preserve">
@@ -196,14 +194,16 @@
             <edit-mode admin="admin" action="save" args="me" edit-var="editMode"></edit-mode>
             <h1>Kamil Golec</h1>
 
-            <p>Jestem młodym, ale doświadczonym filmowcem oraz grafikiem komputerowym aktualnie mieszkającym we Wrocławiu.</p>
-            <p>Tworzeniem filmów pasjonuję się od zawsze. Posiadam profesjonalny sprzęt którego efekty są porównywalne z produkcjami telewizyjnymi czy kinowymi.
-            Moje zainteresowanie grafiką komputerową sprawia, że posiadam wiedzę na temat efektów specjalnych,
-            którą realizuję w każdym moim filmie.</p>
+            <p>Jestem młodym, ale doświadczonym filmowcem oraz grafikiem komputerowym aktualnie mieszkającym we
+                Wrocławiu.</p>
+            <p>Tworzeniem filmów pasjonuję się od zawsze. Posiadam profesjonalny sprzęt którego efekty są porównywalne z
+                produkcjami telewizyjnymi czy kinowymi.
+                Moje zainteresowanie grafiką komputerową sprawia, że posiadam wiedzę na temat efektów specjalnych,
+                którą realizuję w każdym moim filmie.</p>
             <p>Do każdego wyznaczonego mi zadania podchodzę z pełnym zaangażowaniem oraz profesjonalizmem.</p>
             <p>W wolnych chwilach lubię spoglądać w rozgwieżdżone niebo,
                 jeździć rowerem i słuchać <a href="https://www.youtube.com/watch?v=gl2p4G3CUrI"
-                                                           target="_blank">elektro</a>.</p>
+                                             target="_blank">elektro</a>.</p>
         </div>
     </section>
     <section id="osiagniecia" scrollspy-broadcast scrollspy-offset="70" ng-controller="OsiagnieciaController">
@@ -215,6 +215,8 @@
                      ng-class="{'active': achievements.active==$index, 'left': achievements.active>$index, 'right': achievements.active<$index}">
                     <div class="item" ng-repeat="item in achievements.items.slice($index*3, $index*3+3)">
                         <div class="image"><img ng-src="{{item.imgUrl}}"/></div>
+                        <p><b ng-bind="item.title"></b></p>
+                        <p ng-bind="item.description" class="description"></p>
                         <p ng-bind-html="item.content"></p>
                     </div>
                 </div>
@@ -330,6 +332,10 @@
         </div>
     </section>
     <section id="kontakt" scrollspy-broadcast scrollspy-offset="70">
+        <h1>
+            <span>Jesteś zainteresowany współpracą?</span>
+            <span>Masz pytania? <b>Skontaktuj się ze mną!</b></span>
+        </h1>
         <div class="nsz">
             <a class="icon mail" target="_blank" href="mailto:kumalgfilms@gmail.com">
                 <svg version="1.1" id="Mail" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -496,13 +502,15 @@
             </div>
             <div class="block authors">
                 <i>Design: <a href="http://kumalg.pl">Kamil Golec</a></i>
-                <i>Code: <a href="http://kubukoz.com" target="_blank">Jakub Kozłowski</a></i>
+                <i>Code: <a href="https://kubukoz.com" target="_blank">Jakub Kozłowski</a></i>
             </div>
         </div>
     </footer>
 </div>
 <div cookie-consent id="cookie-consent" ng-class="{'visible':!cookiesAccepted}">
-    <div class="nsz">Strona korzysta z plików cookie w celach statystycznych. <a target="_blank" href="https://support.google.com/analytics/answer/6004245?hl=en">Dowiedz się więcej</a> lub <a class="closer" ng-click="acceptCookies()">Zamknij</a></div>
+    <div class="nsz">Strona korzysta z plików cookie w celach statystycznych. <a target="_blank"
+                                                                                 href="https://support.google.com/analytics/answer/6004245?hl=en">Dowiedz
+        się więcej</a> lub <a class="closer" ng-click="acceptCookies()">Zamknij</a></div>
 </div>
 <script src="bower_components/textAngular/dist/textAngular.min.js"></script>
 <script src="bower_components/textAngular/dist/textAngular-sanitize.min.js"></script>

@@ -105,30 +105,6 @@ app.filter("stripProtocol", function(){
         return url?url.split("://").slice(1).join("://"):"";
     }
 })
-app.directive("kzScroll", function($window){
-    return {
-        scope: false,
-        link: function(scope,elem){
-            var h;
-            var resize = function(){
-                h = Math.max(document.documentElement.clientHeight, $window.innerHeight || 0) - 70;
-            };
-            resize();
-            $window.onresize = function(){
-                resize();
-            }
-            $window.onscroll = function(){
-                var x = Math.min($window.scrollY/h, 1);
-                elem.attr("style", "background-color: rgba(20,20,20,%x)".replace("%x", x));
-                var pstart = 255;
-                var pend = 96;
-                var delta = pstart-pend;
-                var p = Math.round(pstart - Math.min(1,x)*delta);
-                angular.element(elem[0].children[0].children[1]).attr("style", "color: rgb(%x, %x, %x)".split("%x").join(""+p));
-            };
-        }
-    }
-});
 app.directive("cookieConsent", function($cookies){
     return {
         scope: false,
