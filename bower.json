@@ -23,5 +23,8 @@
     "angular-fitvids": "kubukoz/angular-fitvids#feature-angular",
     "angular-interval-unless-hover": "*",
     "angular-cookies": "~1.4.4"
+  },
+  "resolutions": {
+    "angular": "~1.4.4"
   }
 }

@@ -6,22 +6,28 @@ var gulp = require('gulp'),
   sass = require('gulp-sass');
 
 gulp.task('styles', function () {
-  livereload.listen();
   return gulp.src('styles/*.scss')
-    .pipe(sass({
-      onError: function (err) {
-        console.log(err);
-      }
-    }))
+    .pipe(sass())
     .pipe(autoprefixer({
       browsers: ['last 2 versions', 'safari 5', 'ios 6', 'android 4']
     }))
     .pipe(cleanCSS())
-    .pipe(livereload())
     .pipe(gulp.dest('styles/'))
 });
 
-gulp.task("watch", function () {
+gulp.task('deploy', ['styles'], () => {
+  return gulp.src([
+    "api/**",
+    "bower_components/**",
+    "images/**",
+    "js/**",
+    "plugins/**",
+    "styles/*.css",
+    "index.html"
+  ], {base: "."}).pipe(gulp.dest("public/"))
+});
+
+gulp.task("watch", () => {
   livereload.listen();
   gulp.watch('styles/**', ['styles']);
 });
