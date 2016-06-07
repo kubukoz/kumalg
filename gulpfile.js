@@ -1,9 +1,9 @@
-var gulp = require('gulp'),
-  autoprefixer = require('gulp-autoprefixer'),
-  livereload = require('gulp-livereload'),
-  rename = require("gulp-rename"),
-  cleanCSS = require("gulp-clean-css"),
-  sass = require('gulp-sass');
+var gulp = require('gulp');
+var autoprefixer = require('gulp-autoprefixer');
+var livereload = require('gulp-livereload');
+var rename = require("gulp-rename");
+var cleanCSS = require("gulp-clean-css");
+var sass = require('gulp-sass');
 
 gulp.task('styles', function () {
   return gulp.src('styles/*.scss')
