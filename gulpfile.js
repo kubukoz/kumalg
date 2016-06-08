@@ -13,6 +13,7 @@ gulp.task('styles', function () {
     }))
     .pipe(cleanCSS())
     .pipe(gulp.dest('styles/'))
+    .pipe(livereload())
 });
 
 gulp.task('deploy', ['styles'], () => {
@@ -24,10 +25,11 @@ gulp.task('deploy', ['styles'], () => {
     "plugins/**",
     "styles/*.css",
     "index.html"
-  ], {base: "."}).pipe(gulp.dest("public/"))
+  ], {base: "."})
+    .pipe(gulp.dest("public/"))
 });
 
 gulp.task("watch", () => {
-  livereload.listen();
+  livereload.listen({start: true});
   gulp.watch('styles/**', ['styles']);
 });
