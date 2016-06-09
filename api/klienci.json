@@ -1,11 +1,19 @@
 [
   {
-    "name": "Elektrum",
-    "imgSrc": "images/klienci/Elektrum.svg"
+    "name": "Urząd Miasta Opole",
+    "imgSrc": "images/klienci/opole.png"
   },
   {
     "name": "Lucky Language",
     "imgSrc": "images/klienci/LuckyLanguage.png"
+  },
+  {
+    "name": "Team Promotion",
+    "imgSrc": "images/klienci/TeamPromotion.png"
+  },
+  {
+    "name": "Elektrum",
+    "imgSrc": "images/klienci/Elektrum.svg"
   },
   {
     "name": "Mantica",
@@ -16,16 +24,8 @@
     "imgSrc": "images/klienci/Kratex.svg"
   },
   {
-    "name": "Team Promotion",
-    "imgSrc": "images/klienci/TeamPromotion.png"
-  },
-  {
     "name": "Standard Express",
     "imgSrc": "images/klienci/StandardExpress.svg"
-  },
-  {
-    "name": "OSK Majchrzak",
-    "imgSrc": "images/klienci/OSK.svg"
   },
   {
     "name": "ZW Media",
