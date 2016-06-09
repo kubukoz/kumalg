@@ -305,6 +305,22 @@
     "name": "Grafika",
     "items": [
       {
+        "name": "47 Rajd Festiwalowy Higma Service",
+        "thumbnail": "grafika/rajd-festiwalowy-2016/thumb.jpg",
+        "content": [
+          "Wykonanie głównej ilustracji oraz wszystkich materiałów reklamowych na 47 Rajd Festiwalowy Higma Service, który odbył się w dniach 4-5 czerwca 2016 roku w Opolu.",
+          "Zaprojektowane zostały m.in. plakaty, zaproszenia, informatory dla kibiców, identyfikatory i naklejki na samochody rajdowe."
+        ],
+        "images": [
+          "grafika/rajd-festiwalowy-2016/full_1.jpg",
+          "grafika/rajd-festiwalowy-2016/full_2.jpg",
+          "grafika/rajd-festiwalowy-2016/full_3.png",
+          "grafika/rajd-festiwalowy-2016/full_4.jpg",
+          "grafika/rajd-festiwalowy-2016/full_5.jpg",
+          "grafika/rajd-festiwalowy-2016/full_6.jpg"
+        ]
+      },
+      {
         "name": "Indywidualny Trening Piłkarski",
         "thumbnail": "grafika/itp/thumb.png",
         "content": [
