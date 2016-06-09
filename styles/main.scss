@@ -162,7 +162,6 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    color: $white;
     justify-content: flex-end;
     li {
       a {
@@ -173,7 +172,7 @@ nav {
         justify-content: center;
         height: 70px;
         padding: 0 30px;
-        color: inherit;
+        color: $white20p;
         text-transform: uppercase;
         font-family: $font-roboto;
         text-align: center;
