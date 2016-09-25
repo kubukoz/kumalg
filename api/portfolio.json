@@ -3,7 +3,19 @@
     "name": "Filmy",
     "items": [
       {
-        "name": "HIT robi impezę!",
+        "name": "\"Art Of Life\" TEDxPiotrkowskaStreet",
+        "thumbnail": "filmy/tedx/thumb.jpg",
+        "content": [
+          "Film promocyjny wydarzenia \"Art Of Life\" organizowanym przez TEDxPiotrkowskaStreet w Łodzi."
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"259\" src=\"https://www.youtube.com/embed/KFuFmfD1Yr8\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
+      },
+      {
+        "name": "HIT robi imprezę!",
         "thumbnail": "filmy/hit-robi-impreze/thumb.jpg",
         "content": [
           "30 sekundowy spot markizów HIT przygotowany na ogólnopolski konkurs organizowany przez MillionYou."
@@ -109,7 +121,7 @@
         "name": "Monument Valley",
         "thumbnail": "filmy/monument-valley/thumb.jpg",
         "content": [
-          "Krótkie filmy z serii \"Monument Valley\" wykonane w technice animacji poklatkowej. Pochodza z lat 2009 oraz 2011.",
+          "Krótkie filmy z serii \"Monument Valley\" wykonane w technice animacji poklatkowej. Pochodzą z lat 2009 oraz 2011.",
           "Film Monument Valley został wyświetlony na festiwalu \"Po Godzinach\" organizowanym przez \"OFF Plus Camera\" natomiast Monument Valley 2 zajął I miejsce w międzyszkolnym konkursie \"Mam talent\" podczas Katarzynek w Plastyku."
         ],
         "vids": [
