@@ -464,7 +464,8 @@
         "content": [
           "Projekt strony internetowej przygotowany dla portalu Wyscigigorskie.pl."
         ],
-        "images": [
+        "macbook": true,
+        "screenshots": [
           "webdesign/wyscigigorskie/full.png"
         ]
       },
