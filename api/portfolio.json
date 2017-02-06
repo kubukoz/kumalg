@@ -459,6 +459,17 @@
     "name": "Webdesign",
     "items": [
       {
+        "name": "Wyscigigorskie.pl",
+        "thumbnail": "webdesign/wyscigigorskie/thumb.jpg",
+        "content": [
+          "Projekt strony internetowej przygotowany dla portalu Wyscigigorskie.pl."
+        ],
+        "macbook": true,
+        "screenshots": [
+          "webdesign/wyscigigorskie/full.png"
+        ]
+      },
+      {
         "name": "Kumalg Films",
         "thumbnail": "webdesign/kumalg/thumb.jpg",
         "content": [
