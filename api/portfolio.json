@@ -228,6 +228,18 @@
     "name": "Animacja",
     "items": [
       {
+        "name": "Spotkajmy się w Europa Café",
+        "thumbnail": "animacja/europa-cafe/thumb.png",
+        "content": [
+          "Spot promujący wydarzenie \"Spotkajmy się w Europa Café\", które odbyło się 16 września 2017 w Zduńskiej Woli"
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://player.vimeo.com/video/233968649\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
+      },
+      {
         "name": "Kumalg Films",
         "thumbnail": "animacja/kumalg/thumb.jpg",
         "content": [
@@ -310,12 +322,34 @@
             "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/ulPZPhkeb3Y\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
           }
         ]
+      },
+      {
+        "name": "Laur przedsiębiorczości 2017",
+        "thumbnail": "animacja/laur-przeds-2017/thumb.jpg",
+        "content": [
+          "Intro przygotowane na wydarzenie \"Laur Przedsiębiorczości 2017\", które odbyło się w Zduńskiej Woli"
+        ],
+        "vids": [
+          {
+            "code": "<iframe width=\"610\" height=\"343\" src=\"https://www.youtube.com/embed/PAEntGuNd4g\" frameborder=\"0\" webkitallowfullscreen allowfullscreen></iframe>"
+          }
+        ]
       }
     ]
   },
   {
     "name": "Grafika",
-    "items": [
+    "items": [      
+      {
+        "name": "Górskie Samochodowe Mistrzostwa Polski - Logo",
+        "thumbnail": "grafika/gsmp-logo-2017/thumb.jpg",
+        "content": [
+          "Projekt logo przygotowany dla Górskich Samochodowych Mistrzostw Polski",
+        ],
+        "images": [
+          "grafika/gsmp-logo-2017/full.png",
+        ]
+      },
       {
         "name": "47 Rajd Festiwalowy Higma Service",
         "thumbnail": "grafika/rajd-festiwalowy-2016/thumb.jpg",
